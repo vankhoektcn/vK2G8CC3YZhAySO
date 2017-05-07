@@ -1,0 +1,1 @@
+﻿insert into nhomnguoidung (tennhom,namenotsign) values (N'Cận lâm sàng','canlamsang')

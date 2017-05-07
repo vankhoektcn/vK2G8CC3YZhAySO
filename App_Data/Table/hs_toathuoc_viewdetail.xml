@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_toathuoc_viewdetail ID="IdToaThuocDetail">
+  <COLUMN COLUMN_NAME="IdToaThuocDetail" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IdToaThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ChiTietThuoc" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="ChiTietBenh" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="ChiTietCLS" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="IdKhamBenh" TYPE_NAME="bigint" />
+</hs_toathuoc_viewdetail>

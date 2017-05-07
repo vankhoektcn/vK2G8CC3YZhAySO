@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<khothuoc ID="idkho">
+  <COLUMN COLUMN_NAME="idkho" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="makho" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenkho" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="taikhoankho" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="taikhoangiavon" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="diachi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsKT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsCLS" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsKB" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdKhoa" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsNT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="NVK_LoaiKho" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="IdKho_Used" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SOTT" TYPE_NAME="int" />
+</khothuoc>

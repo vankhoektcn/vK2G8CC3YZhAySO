@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<userprofile ID="EPID">
+  <COLUMN COLUMN_NAME="EPID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="UserID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="PermID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsTransfer" TYPE_NAME="bit" />
+</userprofile>

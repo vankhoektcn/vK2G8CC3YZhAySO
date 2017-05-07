@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_tinhtrangxuatkhoa ID="idTinhTrang">
+  <COLUMN COLUMN_NAME="idTinhTrang" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="tenTinhTrang" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="status" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="nvk_ttUT" TYPE_NAME="int" />
+</kb_tinhtrangxuatkhoa>

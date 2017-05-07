@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_toathuoc_view ID="IdToaThuoc">
+  <COLUMN COLUMN_NAME="IdToaThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NgayToa" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IdBenhNhan" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="MaBN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="HoTenBN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgaySinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="GioiTinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoBHYT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DungTuyen" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsHaveThuoc" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="BNTra" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Capthuoc" TYPE_NAME="nvarchar" />
+</hs_toathuoc_view>

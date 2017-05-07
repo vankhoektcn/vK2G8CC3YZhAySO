@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toathuocmauchitiet ID="idchitiettoathuoc">
+  <COLUMN COLUMN_NAME="idchitiettoathuoc" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idtoathuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="DoiTuongThuocID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idthuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="soluongke" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ngayuong" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="moilanuong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tenNgaydung" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="idcachdung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="iddvdung" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="iddvt" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ischieu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="isngay" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="issang" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="istoi" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="istrua" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="istuan" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsHaoPhi" TYPE_NAME="bit" />
+</toathuocmauchitiet>

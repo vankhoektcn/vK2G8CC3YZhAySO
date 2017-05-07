@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_loaigiuong ID="IDLOAIGIUONG">
+  <COLUMN COLUMN_NAME="IDLOAIGIUONG" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TENLOAIGIUONG" TYPE_NAME="nvarchar" />
+</hs_loaigiuong>

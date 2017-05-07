@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_thuoc.master.cs"
+    Inherits="MasterPage_thuoc" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Hệ thống phần mềm quản lý bệnh viện</title>
+    
+    <%--<link href="~/cssThuoc/default.css" type="text/css" rel="stylesheet" />--%>
+    <link href="css/Default.css" type="text/css" rel="stylesheet" />
+    <link href="~/css/jquery.autocomplete.css" type="text/css" rel="stylesheet" />
+    <link href="~/jsthuoc/epoch_styles.css" type="text/css" rel="stylesheet" />
+
+
+    <script src="../js/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.validate.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui.js" type="text/javascript"></script>
+    <script src="../js/jquery.autocomplete.js" type="text/javascript"></script>
+    <script src="../jsthuoc/myscript.js" type="text/javascript"></script>
+    <script src="../jsthuoc/myScriptTest.js" type="text/javascript"></script>
+    <script src="../jsthuoc/epoch_classes.js" type="text/javascript"></script>
+    
+    <link href="~/noitru/css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="~/noitru/css/dropdown/themes/default/default.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <script type="text/javascript">
+    
+    window.onload=function(){
+        var w = window.screen.width;
+        var h = window.screen.height;
+        window.resizeTo(w,h);
+        window.moveTo(0,0);
+        window.scrollbars=true;        
+}
+ $(document).ready(function()
+    {
+        $('.divInDefaultRight').hover(
+		function(){
+			$(this).animate({'background-color':'#ffffff'}, 300);				
+		}, 
+		function(){
+			$(this).animate({'background-color':'#fafafa'}, 300);					
+		}		
+		);
+        $('div.sola div a,input:image').click(function(){
+            $('#imghiep').show();
+        });
+	    $(window).load(function () {
+            $('#imghiep').hide();
+        });
+        // New
+        $('div.sola div a,input:image').click(function() {
+ 		$('#imghiep').show();
+ 	});
+ 	$(window).load(function() {
+ 		$('#imghiep').hide();
+ 	});
+
+ 	$("table.jtable tr:nth-child(odd)").addClass("odd");
+ 	$("table.jtable tr:nth-child(even) td:first-child").addClass("even-first");
+ 	$("table.jtable tr:nth-child(odd) td:first-child").addClass("odd-first");
+    });
+    function Kiemngay(control)
+         {
+           var date = new Date();
+           var dates = date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
+            if(control.value.split('/')[0] < date.getDate() && (control.value.split('/')[1] <= date.getMonth()+1 && control.value.split('/')[2] <= date.getFullYear()))
+            {
+                alert("Hạn Sử dụng không đúng.");
+                control.focus();
+                return false;
+            }
+            if(control.value.split('/')[1] < date.getMonth()+1 && control.value.split('/')[2] <= date.getFullYear())
+            {
+                alert("Hạn Sử dụng không đúng.");
+                control.focus();
+                return false;
+            }
+            if(control.value.split('/')[2] < date.getFullYear())
+            {
+                alert("Hạn Sử dụng không đúng.");
+                control.focus();
+                return false;
+            }
+         }
+    
+    </script>
+
+    <style>
+    *{font-size:13px;font-weight:normal;font-family:Tahoma;}
+    input,select{color:#444;border:1px solid #cfcfcf}
+	input[type="text"]:focus{background-color:#ffff99}
+    input[type="button"],input[type="submit"]{border:2px solid #cfcfcf;width:80px;height:25px;background-color:#4472ca;color:white;font-weight:bold;}
+    input[type="button"]:hover,input[type="submit"]:hover{padding:1px 1px 1px 1px;background-color:#1d4b74;margin-bottom:-1px;cursor:pointer;font-size:13.5px}
+        .hovermenu
+        {
+            padding:3px 2px 3px 2px;
+          
+            color:ButtonText;
+            font-weight:normal;
+            font-family:Times New Roman;
+            z-index:1000;
+        }
+        .shovermenu{padding:3px 2px 3px 2px;font-size:13px;color:ButtonText;font-weight:normal;font-family:Times New Roman;z-index:1000;}
+        .sola{position:fixed;top:0;margin:0;left:0;width:100%;z-index:1000;}
+    </style>
+    <asp:contentplaceholder runat="server" id="header">
+    </asp:contentplaceholder>
+</head>
+<body style="background-color: white">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div style="background-color: #EAEBE6">
+            <div style="height: 20px; width: 100%; background-color: #2B7AF7; padding-top: 20px;
+                padding-bottom: 4px">
+                <b style="color: #FFFFFF; font-family: Tahoma;">
+                    <%= StaticData_thuoc.TenCty %>
+                    <%=SysParameter.UserLogin.FullName(this.Page).ToString() %>
+                </b>
+            </div>
+            <%--<uc1:uscMenu ID="UscMenu1" runat="server" />--%>
+            <asp:PlaceHolder ID='PlaceHolder1' runat="server"></asp:PlaceHolder>
+        </div>
+        <div style="margin: 0px auto; color: #0033cc; width: 981px">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="loadingAjax">
+    </div>
+    <div id="divParent">
+    </div>
+    <div id="imghiep" style="font-size: xx-large; display: none; position: fixed; top: 50%;
+        left: 40%; z-index: 1000; display: block;">
+        Đang chạy,xin chờ ...
+    </div>
+    <div class="footer" style="font-family: Tahoma; font-weight: lighter; font-size: 15px;
+        background-color: #EAEBE6; padding-left: 25px; padding-right: 10px; padding-top: 7px;
+        background-color: #EAE7E2; text-align: center; height: 40px">
+        Hệ thống phần mềm quản lý bệnh viện - Copyright © 2011 MKV Co,Ltd
+    </div>
+</body>
+</html>

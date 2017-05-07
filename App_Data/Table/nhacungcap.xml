@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nhacungcap ID="nhacungcapid">
+  <COLUMN COLUMN_NAME="nhacungcapid" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="manhacungcap" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tennhacungcap" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="nguoilienhe" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="diachi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dienthoai" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="fax" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="hanmuctindung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="taikhoannganhang" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="nganhang" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="masothue" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dinhdanhimei" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="IsKT" TYPE_NAME="bit" />
+</nhacungcap>

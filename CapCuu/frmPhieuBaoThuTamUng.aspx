@@ -1,0 +1,40 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmPhieuBaoThuTamUng.aspx.cs" Inherits="frmPhieuBaoThuTamUng" %>
+
+<%@ Register Assembly="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304"
+    Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>BIÊN LAI THU TIỀN</title>
+    <link href="/aspnet_client/System_Web/2_0_50727/CrystalReportWebFormViewer3/css/default.css"
+        rel="stylesheet" type="text/css" />
+<script src="../js/jquery-1.6.1.min.js" type="text/javascript"> </script>
+<script src="../js/jquery-ui.js" type="text/javascript"> </script>
+<script src="../noitru/js/nvk_SessionPrint.js" type="text/javascript"> </script>
+<script src="../js/myscript.jqr.js" type="text/javascript"> </script>
+    
+<script type="text/javascript">
+window.onload = function () 
+	{
+	    StartPrint();
+	}
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:placeholder id="PlaceHolder1" runat="server"></asp:placeholder>
+    </div>
+    <div>
+        <CR:CrystalReportViewer ID="bienlaitamung" runat="server" AutoDataBind="true" DisplayGroupTree="False" HasCrystalLogo="False" HasDrillUpButton="False" HasGotoPageButton="False" HasPageNavigationButtons="False" HasRefreshButton="True" HasToggleGroupTreeButton="False" HasViewList="False" PrintMode="ActiveX" OnUnload="CrystalReportViewer1_Unload" />
+        <input type="image" id="nvk_print" name="bienlaitamung$ctl02$ctl01" title="Print"
+         src="/aspnet_client/System_Web/2_0_50727/CrystalReportWebFormViewer3/images/toolbar/print.gif"
+          onmouseover="this.src='/aspnet_client/System_Web/2_0_50727/CrystalReportWebFormViewer3/images/toolbar/print_over.gif'"
+           onmouseout="this.src='/aspnet_client/System_Web/2_0_50727/CrystalReportWebFormViewer3/images/toolbar/print.gif'"
+            style="height:22px;width:22px;border-width:0px;" />
+    </div>
+    </form>
+</body>
+</html>

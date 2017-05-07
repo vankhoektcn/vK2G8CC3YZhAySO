@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chandoanicd ID="IDICD">
+  <COLUMN COLUMN_NAME="IDICD" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="MaICD" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MoTa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IDNhomICD" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="EnglishName" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdNguoiDung" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SoTT" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idchuongid" TYPE_NAME="int" />
+</chandoanicd>

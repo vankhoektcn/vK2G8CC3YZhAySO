@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsbaocaoloinhuantheohanghoasanpham" targetNamespace="http://tempuri.org/dsbaocaoloinhuantheohanghoasanpham.xsd" xmlns:mstns="http://tempuri.org/dsbaocaoloinhuantheohanghoasanpham.xsd" xmlns="http://tempuri.org/dsbaocaoloinhuantheohanghoasanpham.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsbaocaoloinhuantheohanghoasanpham" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtloinhuantheohanghoa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="masp" type="xs:string" minOccurs="0" />
+              <xs:element name="tensp" type="xs:string" minOccurs="0" />
+              <xs:element name="noidung" type="xs:string" minOccurs="0" />
+              <xs:element name="tienban" type="xs:double" minOccurs="0" />
+              <xs:element name="tienvon" type="xs:double" minOccurs="0" />
+              <xs:element name="loinhuan" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

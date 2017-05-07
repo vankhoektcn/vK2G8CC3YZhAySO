@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head runat ="server">
+    <title>
+    <%if (Request.QueryString["dkmenu"] == "kb"){ %>
+        Khám Bệnh
+      <% }else if(Request.QueryString["dkmenu"] == "thuphi"){%>
+        Thu Phí
+      <% }else if(Request.QueryString["dkmenu"] == "tiepnhan"){%>
+        Tiếp Nhận
+      <% }else if(Request.QueryString["dkmenu"] == "cls"){%>
+        Cận Lâm Sàng
+      <% }else if(Request.QueryString["dkmenu"] == "thongke"){%>
+        Thống Kê
+            
+      <%}else if (Request.QueryString["dkmenu"] == "capcuu"){ %>
+        CẤP CỨU
+      <% }else if(Request.QueryString["dkmenu"] == "khoangoai"){%>
+        KHOA NGOẠI
+      <% }else if(Request.QueryString["dkmenu"] == "khoanoi"){%>
+        KHOA NỘI
+      <% }else if(Request.QueryString["dkmenu"] == "khoaphauthuat"){%>
+        KHOA PHẪU THUẬT
+      <% }else if(Request.QueryString["dkmenu"] == "tansoi"){%>
+        PHÒNG TÁN SỎI
+      <% }else if(Request.QueryString["dkmenu"] == "khoasan"){%>
+        KHOA SẢN
+      <% }else{%>
+      Thu Phí
+    <% }%>
+    </title>
+    <script type="text/javascript" src="../js/jquery-1.6.1.min.js"></script>    
+    <script src="../js/jquery.autocomplete.new.js" type="text/javascript"> </script>
+    
+    <link type="text/css" rel="stylesheet" href="../css/default.css" />
+    <link type="text/css" rel="stylesheet" href="../css/sheet_index.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="../js/libary.js"></script>
+    <script type="text/javascript" src="../js/myscript.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/myjava.js"></script>
+    <!--<script type="text/javascript" src="../js/AutoComplete.js"></script>-->
+    <link type="text/css" href="~/css/jquery.autocomplete.new.css" rel="Stylesheet" />
+    
+       <link type="text/css" rel="stylesheet" href="../js/epoch_styles.css" />
+    <script type="text/javascript" src="../js/epoch_classes.js"></script>
+     
+    <link href="~/noitru/css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="~/noitru/css/dropdown/themes/default/default.css" media="screen" rel="stylesheet" type="text/css" />
+    
+	<style>
+            .menu1{
+                font-size:12px;
+                font-weight:bold;
+                color:#666666;
+				font-family:Tahoma;
+            }
+
+            .menu1 A{
+                font-size:12px;
+                font-weight:bold;
+                color:#666666;
+                text-decoration:none;
+				font-family:Tahoma;
+            }
+
+            .menu1 A:hover{
+                font-family:tahoma;
+                font-size:12px;
+                color:Red;
+                font-weight:bold;	
+                text-decoration:none;
+            }
+        </style> 
+    <script language = "javascript">
+	
+    //Kiem tra Ngay
+	function TestDateClient(t)
+	{
+		if (t.value != "")
+		{
+			t.value=AddString(t.value);
+			if (isDate(t.value)==false)
+				{
+					alert("Bạn nhập ngày tháng không hợp lệ ! ");
+					t.focus();
+				}
+		}
+		else
+		{
+		    alert("Bạn chưa nhập ngày tháng. Vui lòng kiểm tra lại! ");
+			t.focus();
+		}
+		return;
+	}  
+	function TestNum(obj)
+	{
+		
+		if (obj.value!="")
+		{				
+			if (CheckNumberFloat(obj.value)==false)
+			{
+				obj.value="0";
+				alert("Bạn phải nhập giá trị số! ");
+				obj.focus();
+				
+			}
+		}
+	}
+	function SetFocus(obj)
+	{
+	    var obj = document.getElementById(obj);
+	    obj.focus();
+	}
+	
+	function LoadDangNhap()
+    {
+        xmlHttp = GetMSXmlHttp();
+        xmlHttp.onreadystatechange = function()
+        {
+            if(xmlHttp.readyState == 4)
+            {
+                var value = xmlHttp.responseText;
+                if(!document.all) value = eval(value+"");
+                if(value == 0)
+                {
+                   document.location.href = "dangnhap.aspx";
+                }                
+            }
+        }
+        xmlHttp.open("GET","ajax.aspx?do=resetsesion&times="+Math.random(),true);
+        xmlHttp.send(null);
+    }
+    
+    function Thoat()
+    {
+        window.close();
+    }
+    $(document).ready(function()
+    {
+    
+        $('div.sola div a,input:image').click(function(){
+            $('#imghiep').show();
+        });
+	    $(window).load(function () {
+            $('#imghiep').hide();
+        });
+
+    });
+</script>
+</head>
+<body onmousemove="overScreen()" style ="background-color:#D4D0C8">
+<div align = "center">
+<div id="imghiep" style="font-size:xx-large;display:none;position:fixed;top:50%;left:40%;z-index:1000;display:block;">Đang chạy,xin chờ ... </div>
+<table cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td valign="top" style="padding-left:0px;padding-right:0px; width: 100%;"  align = "left">
+		    
+		    
+		        
+

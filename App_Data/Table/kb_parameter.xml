@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_parameter ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ParaName" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ParaValue" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Description" TYPE_NAME="nvarchar" />
+</kb_parameter>

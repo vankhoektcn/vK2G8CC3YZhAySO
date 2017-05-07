@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_NoiTru.master.cs" Inherits="MasterPage_NoiTru"  %>
+<%@ Register Src="~/usercontrols/uscmenu.ascx" TagName="uscmenu" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head runat="server">
+
+        <title><%--PHẦN MỀM QUẢN LÝ BỆNH VIỆN--%>
+        <%if (Request.QueryString["dkmenu"] == "kb"){ %>
+        Khám Bệnh
+      <% }else if(Request.QueryString["dkmenu"] == "thuphi"){%>
+        Thu Phí
+      <% }else if(Request.QueryString["dkmenu"] == "tiepnhan"){%>
+        Tiếp Nhận
+      <% }else if(Request.QueryString["dkmenu"] == "cls"){%>
+        Cận Lâm Sàng
+      <% }else if(Request.QueryString["dkmenu"] == "thongke"){%>
+        Thống Kê
+            
+      <%}else if (Request.QueryString["dkmenu"] == "capcuu"){ %>
+        CẤP CỨU
+      <% }else if(Request.QueryString["dkmenu"] == "khoangoai"){%>
+        KHOA NGOẠI
+      <% }else if(Request.QueryString["dkmenu"] == "khoanoi"){%>
+        KHOA NỘI
+      <% }else if(Request.QueryString["dkmenu"] == "khoaphauthuat"){%>
+        KHOA PHẪU THUẬT
+      <% }else if(Request.QueryString["dkmenu"] == "tansoi"){%>
+      PHÒNG TÁN SỎI
+      <% }else if(Request.QueryString["dkmenu"] == "khoasan"){%>
+      KHOA SẢN
+      <% }else{%>
+      QUẢN LÝ BỆNH VIỆN
+    <% }%>
+        </title>
+        <script src="../js/jquery-1.6.1.min.js" type="text/javascript"> </script>
+        <script src="../js/jquery-ui.js" type="text/javascript"> </script>
+        <script src="../js/jquery.autocomplete.new.js" type="text/javascript"> </script>    
+        <script src="../js/jquery.validate.js" type="text/javascript"> </script>
+        <script src="../js/myscriptvalid.js" type="text/javascript"> </script>
+        <script src="../js/jquery.alerts.js" type="text/javascript"> </script>
+        <script src="../js/timepicker.js" type="text/javascript"> </script>
+        <script src="../js/myscript.jqr.js" type="text/javascript"> </script>
+	 
+       <link type="text/css" href="~/css/DefaultBV.css" rel="Stylesheet"/>
+        <link type="text/css" rel="stylesheet" href="../css/default.css" />
+        <link type="text/css" href="~/css/timepicker.css" rel="Stylesheet"/>
+        <link type="text/css" href="~/css/jquery-ui.css" rel="Stylesheet"/>
+         <link type="text/css" href="~/css/jtable.css" rel="Stylesheet"/>
+        <link type="text/css" href="~/css/jquery.autocomplete.new.css" rel="Stylesheet"/>
+    
+    <script type="text/javascript" src="../js/libary.js"></script>
+    <script type="text/javascript" src="../js/myscript.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/myjava.js"></script>
+
+        <script type="text/javascript">
+ $(document).ready(function() {
+ 	$('div.sola div a,input:image').click(function() {
+ 		$('#imghiep').show();
+ 	});
+ 	$(window).load(function() {
+ 		$('#imghiep').hide();
+ 	});
+
+ 	$("table.jtable tr:nth-child(odd)").addClass("odd");
+ 	$("table.jtable tr:nth-child(even) td:first-child").addClass("even-first");
+ 	$("table.jtable tr:nth-child(odd) td:first-child").addClass("odd-first");
+
+ });
+    
+
+        </script>
+<style type="text/css">
+    #tabb
+        {
+            background:#ece9d8
+        }
+</style>    
+        <asp:contentplaceholder runat="server" id="header">
+        </asp:contentplaceholder>
+    </head>
+    <body style="background-color:#D4D0C8"><%-- #D4D0C8"--%>
+        <form id="form1" runat="server">
+            <asp:PlaceHolder ID='PlaceHolder1' runat="server"> </asp:PlaceHolder>
+            <div class="body-out">
+                <asp:contentplaceholder id="body" runat="server" EnableViewState="False">
+                </asp:contentplaceholder>
+            </div>
+        </form>
+        <div id="imghiep"><%--Đang chạy,xin chờ ...--%> </div>
+    </body>
+</html>

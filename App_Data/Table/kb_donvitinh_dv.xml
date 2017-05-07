@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_donvitinh_dv ID="IDDVT">
+  <COLUMN COLUMN_NAME="IDDVT" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="TenDVt" TYPE_NAME="nvarchar" />
+</kb_donvitinh_dv>

@@ -1,0 +1,1 @@
+alter table phieuxuatkho add IdBenhNhanToaThuoc bigint

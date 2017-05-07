@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chitietdangkykham ID="idchitietdangkykham">
+  <COLUMN COLUMN_NAME="idchitietdangkykham" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="iddangkykham" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idbanggiadichvu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="soluong" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="dongia" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="baohiemchi" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="giamgia" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="dahuy" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="dakham" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="idnguoithu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="iddieuduong" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="PhongSo" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoTT" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="PhongID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDaThu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="SLBNCho" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="SLBNDK" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdKhamBenhCD" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="isNotThuPhiCapCuu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ishoantatcls" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsHoanTraCT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="BHTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNDaTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNTongPhaiTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISBNDaTra" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="NGAYTINHBH_THUC" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="PhuThuBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="PrevBNTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IDKHOA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="iskhongkham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NGAYDANGKY_CHITIET" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IDBENHNHAN_CHITIET" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsCoDKCLS" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="NgayTraKQCLS" TYPE_NAME="datetime" />
+</chitietdangkykham>

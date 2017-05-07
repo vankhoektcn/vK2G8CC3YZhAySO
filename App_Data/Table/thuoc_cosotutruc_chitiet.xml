@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc_cosotutruc_chitiet ID="IdCoSoTuTrucChiTiet">
+  <COLUMN COLUMN_NAME="IdCoSoTuTrucChiTiet" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IdCoSoTuTruc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="CoSo" TYPE_NAME="int" />
+</thuoc_cosotutruc_chitiet>

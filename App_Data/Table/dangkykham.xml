@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dangkykham ID="iddangkykham">
+  <COLUMN COLUMN_NAME="iddangkykham" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="maphieudangky" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngaydangky" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idnguoidung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="dosinhhieu" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="idbacsichidinh" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="iddieuduong" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="phuthubhyt" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="dathu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ngayxacnhan" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="dahuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LoaiKhamID" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="STTDKK" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNguoiThu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="taikhoanno" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="taikhoanco" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="lydo" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MaSoKhamBenh" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="ishoantra" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ChuyenTuIdDKK" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBenhBHDongTien" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDKHAMBENH_CHUYEN" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="MaPhieu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IDBENHNHAN_BH" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NGAYTRINHTHE" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IDKHOADK" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ISNOITRU" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="MASOHOSO" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SOVAOVIEN1" TYPE_NAME="nvarchar" />
+</dangkykham>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hangsanxuat ID="idhangsanxuat">
+  <COLUMN COLUMN_NAME="idhangsanxuat" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="mahangsanxuat" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenhangsanxuat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ishang" TYPE_NAME="tinyint" />
+</hangsanxuat>

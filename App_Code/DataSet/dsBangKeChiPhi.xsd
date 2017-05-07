@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBangKeChiPhi" targetNamespace="http://tempuri.org/dsBangKeChiPhi.xsd" xmlns:mstns="http://tempuri.org/dsBangKeChiPhi.xsd" xmlns="http://tempuri.org/dsBangKeChiPhi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBangKeChiPhi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBangKeChiPhi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoiDung" type="xs:string" minOccurs="0" />
+              <xs:element name="SoLuong" type="xs:long" minOccurs="0" />
+              <xs:element name="DonGia" type="xs:long" minOccurs="0" />
+              <xs:element name="ThanhTien" type="xs:long" minOccurs="0" />
+              <xs:element name="QuyBHYT" type="xs:long" minOccurs="0" />
+              <xs:element name="Khac" type="xs:long" minOccurs="0" />
+              <xs:element name="NguoiBenh" type="xs:long" minOccurs="0" />
+              <xs:element name="TenNhom" type="xs:string" minOccurs="0" />
+              <xs:element name="STTDV" type="xs:int" minOccurs="0" />
+              <xs:element name="G" type="xs:double" minOccurs="0" />
+              <xs:element name="DonViTinh" type="xs:string" minOccurs="0" />
+              <xs:element name="NhomCon" type="xs:string" minOccurs="0" />
+              <xs:element name="GiaBH" type="xs:double" minOccurs="0" />
+              <xs:element name="idkhoa" type="xs:int" minOccurs="0" />
+              <xs:element name="TenKhoa" type="xs:string" minOccurs="0" />
+              <xs:element name="DonGiaBH" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

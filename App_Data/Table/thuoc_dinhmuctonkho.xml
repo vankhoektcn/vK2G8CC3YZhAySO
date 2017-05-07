@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc_dinhmuctonkho ID="IdDinhMuc">
+  <COLUMN COLUMN_NAME="IdDinhMuc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Idthuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SL" TYPE_NAME="bigint" />
+</thuoc_dinhmuctonkho>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sinhhieu ID="idsinhhieu">
+  <COLUMN COLUMN_NAME="idsinhhieu" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngaydo" TYPE_NAME="smalldatetime" />
+  <COLUMN COLUMN_NAME="mach" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="nhietdo" TYPE_NAME="real" />
+  <COLUMN COLUMN_NAME="huyetap1" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="huyetap2" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="nhiptho" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="chieucao" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="cannang" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="tiensubenh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="BMI" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="diungthuoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Iddangkykham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idchitietdangkykham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idkhoasinhhieu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idnguoidung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdKhamBenh" TYPE_NAME="bigint" />
+</sinhhieu>

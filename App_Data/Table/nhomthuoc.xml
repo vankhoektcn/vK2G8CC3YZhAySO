@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nhomthuoc ID="idnhomthuoc">
+  <COLUMN COLUMN_NAME="idnhomthuoc" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="cateid" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="manhom" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tennhom" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dinhdanhimei" TYPE_NAME="nchar" />
+</nhomthuoc>

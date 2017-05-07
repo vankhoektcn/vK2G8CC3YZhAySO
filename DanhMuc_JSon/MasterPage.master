@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="uscmenu.ascx" TagName="uscmenu_DanhMucJSon" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PHẦN MỀM QUẢN LÝ KHO - BÁN HÀNG</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+    <script src="../../js/jquery-1.6.1.min.js" type="text/javascript"></script>
+
+    <script src="../../js/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="../../js/jquery.autocomplete.js" type="text/javascript"></script>
+
+    <script src="../../js/jquery.validate.js" type="text/javascript"></script>
+
+    <script src="../../js/myscriptvalid.js" type="text/javascript"></script>
+
+    <link type="text/css" href="css/Default.css" rel="Stylesheet" />
+    <link type="text/css" href="css/jquery-ui.css" rel="Stylesheet" />
+    <link type="text/css" href="css/jtable.css" rel="Stylesheet" />
+    <link type="text/css" href="css/jquery.autocomplete.css" rel="Stylesheet" />
+
+    <script type="text/javascript" src="../../js/timepicker.js"></script>
+
+    <link type="text/css" href="css/timepicker.css" rel="Stylesheet" />
+
+    <script type="text/javascript" src="../../js/myscript.js"></script>
+
+    <script type="text/javascript" src="../../js/myscript.jqr.js"></script>
+    <script type="text/javascript" src="../../noitru/alert/jquery.alerts.js"></script>
+        <link type="text/css" href="~/noitru/alert/jquery.alerts.css" rel="Stylesheet" />
+  <script type="text/javascript">
+ $(document).ready(function()
+    {
+        
+        $('div.sola div a,input:image').click(function(){
+            $('#imghiep').show();
+        });
+	    $(window).load(function () {
+            $('#imghiep').hide();
+        });
+        $("table.jtable tr:nth-child(odd)").addClass("odd");
+        $("table.jtable tr:nth-child(even) td:first-child").addClass("even-first");
+        $("table.jtable tr:nth-child(odd) td:first-child").addClass("odd-first");
+    });
+    
+   
+    
+function checkDuyetAllTable(obj,tableName,checkboxId)
+{
+    var rowCount= $("#"+tableName+" tr").length;
+    var ischeck= $(obj).is(":checked");
+    for(var i =1;i<rowCount-1;i++)
+    {
+        $("#"+tableName).find("tr").eq(i).find("#SoLuongDuyet").attr("disabled",ischeck);
+        $("#"+tableName).find("tr").eq(i).find("#"+checkboxId).attr("checked", ischeck);
+    }
+    if(obj.id !="IsDuyetIn")
+    {
+        $("#IsDuyetIn").attr("checked", ischeck);
+        $("#IsDuyetIn").attr("disabled", true);
+    }
+    else
+    {
+        $("#IsDuyetInAll").attr("checked", ischeck);
+    }
+}
+function rowSetCheck(obj,tableName,checkboxId)
+{
+    if( $.isNullOrEmpty($("#"+tableName).find("tr").eq($(obj).parent().parent().index()).find("#IdThuoc").val()) || $("#"+tableName).find("tr").eq($(obj).parent().parent().index()).find("#IdThuoc").val() == "0" )
+    {
+        return;
+    }
+    var rowCount= $("#"+tableName+" tr").length;
+    var ischeck= $(obj).is(":checked");
+    var istrue= true;
+        $("#"+tableName).find("tr").eq($(obj).parent().parent().index()).find("#SoLuongDuyet").attr("disabled",ischeck);
+    if(!ischeck)
+    {
+        istrue= false;
+    }
+    else
+    {
+        for(var i =2;i<rowCount-1;i++)
+        {
+            if($("#"+tableName).find("tr").eq(i).find("#IdThuoc").val() != "0" && !$.isNullOrEmpty($("#"+tableName).find("tr").eq(i).find("#IdThuoc").val()) )
+            {
+                if(!$("#"+tableName).find("tr").eq(i).find("#"+checkboxId).is(":checked"))
+                {
+                    istrue= false;
+                    break;
+                }
+            }
+        }
+    }
+    $("#IsDuyetInAll").attr("checked", istrue);
+    $("#IsDuyetIn").attr("checked", istrue);
+    $("#IsDuyetIn").attr("disabled", true);
+}
+    </script>
+
+    <asp:contentplaceholder runat="server" id="header">
+    </asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="body-out">
+            <uc1:uscmenu_DanhMucJSon ID="uscmenu_DanhMucJSon1" runat="server" />
+            <asp:PlaceHolder ID="pMain" runat="server"></asp:PlaceHolder>
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

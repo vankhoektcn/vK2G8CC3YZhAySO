@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<z_chietkhau ID="IDDETAIL">
+  <COLUMN COLUMN_NAME="IDDETAIL" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="CHIETKHAU" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="THANHTIEN" TYPE_NAME="float" />
+</z_chietkhau>

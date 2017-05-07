@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_tonkhoviewdetail ID="IdTonKhoDetail">
+  <COLUMN COLUMN_NAME="IdTonKhoDetail" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IdTonKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TTHC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TenSP" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENDVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Dongia" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="LoSanXuat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Ngayhethan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DAUKY_SL" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DAUKY_TT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NHAP_SL" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NHAP_TT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NHAP_SL2" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NHAP_TT2" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="XUAT_SL" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="XUAT_TT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="XUAT_SL2" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="XUAT_TT2" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="CUOIKY_SL" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="CUOIKY_TT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="CATENAME" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NHOMTHUOC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DES" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="CuoiKy_SL1" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="CuoiKy_TT1" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGia1" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SODK" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdNuocSX_N" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDelete" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsDieuChinh" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdChitietPhieuNhaps" TYPE_NAME="nvarchar" />
+</hs_tonkhoviewdetail>

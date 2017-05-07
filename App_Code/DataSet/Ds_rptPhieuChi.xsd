@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_rptPhieuChi" targetNamespace="http://tempuri.org/Ds_rptPhieuChi.xsd" xmlns:mstns="http://tempuri.org/Ds_rptPhieuChi.xsd" xmlns="http://tempuri.org/Ds_rptPhieuChi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=MAYSO3;Initial Catalog=BVMinhDuc3;User ID=sa;Password=123" IsAppSettingsProperty="False" Modifier="Assembly" Name="mayso3.BVMinhDuc3.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rptPhieu_ChiTableAdapter" Name="rptPhieu_Chi">
+            <MainSource>
+              <DbSource ConnectionRef="mayso3.BVMinhDuc3.dbo" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>select so_phieu_chi,ngay_chi,tk_co,nguoi_giao,dien_giai,tien,tennhacungcap,diachi
+from phieu_chi a left join nhacungcap b on a.ma_ncc=b.nhacungcapid</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="so_phieu_chi" DataSetColumn="so_phieu_chi" />
+              <Mapping SourceColumn="ngay_chi" DataSetColumn="ngay_chi" />
+              <Mapping SourceColumn="tk_co" DataSetColumn="tk_co" />
+              <Mapping SourceColumn="nguoi_giao" DataSetColumn="nguoi_giao" />
+              <Mapping SourceColumn="dien_giai" DataSetColumn="dien_giai" />
+              <Mapping SourceColumn="tien" DataSetColumn="tien" />
+              <Mapping SourceColumn="tennhacungcap" DataSetColumn="tennhacungcap" />
+              <Mapping SourceColumn="diachi" DataSetColumn="diachi" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_rptPhieuChi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptPhieu_Chi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="so_phieu_chi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ngay_chi" type="xs:dateTime" />
+              <xs:element name="tk_co" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nguoi_giao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dien_giai" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="120" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tennhacungcap" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="diachi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

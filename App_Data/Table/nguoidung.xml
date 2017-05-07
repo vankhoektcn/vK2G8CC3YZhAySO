@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nguoidung ID="idnguoidung">
+  <COLUMN COLUMN_NAME="idnguoidung" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="tennguoidung" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="username" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="matkhau" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="dienthoai" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="isadmin" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="nhomID" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdBacSi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdClient" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdNhanVien" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idphong" TYPE_NAME="bigint" />
+</nguoidung>

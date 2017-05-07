@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_huongdieutri ID="HuongDieuTriId">
+  <COLUMN COLUMN_NAME="HuongDieuTriId" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TenHuongDieuTri" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISKetThuc" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsCreateBA" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsNgoaiTru" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsNoiTru" TYPE_NAME="bit" />
+</kb_huongdieutri>

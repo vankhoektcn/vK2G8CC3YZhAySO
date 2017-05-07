@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_outputdetail ID="OutPutDetailID">
+  <COLUMN COLUMN_NAME="OutPutDetailID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdPhieuXuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Quantity" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="UnitID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Note" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Top1IdChiTietPhieuXuatKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDelete" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="SLTON" TYPE_NAME="float" />
+</hs_outputdetail>

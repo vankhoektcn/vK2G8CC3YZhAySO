@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<benhnhan_bhyt ID="IDBENHNHAN_BH">
+  <COLUMN COLUMN_NAME="IDBENHNHAN_BH" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IDBENHNHAN" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="sobhyt" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaybatdau" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="ngayhethan" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DungTuyen" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="isgiaychuyen" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsCapCuu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsDungTuyen" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="sobh1" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobh2" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobh3" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobh4" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobh5" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobh6" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdNoiDangKyBH" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNoiGioiThieu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="tilebhyt" TYPE_NAME="bigint" />
+</benhnhan_bhyt>

@@ -1,0 +1,165 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LuongNhanVien.aspx.cs" Inherits="quanlynhansu_LuongNhanVien" %>
+<%@ Register Src="uscmenu.ascx" TagName="uscmenu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--#include file ="header.htm"-->
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Lương nhân viên</title>  
+    <script type="text/javascript" language="javascript">  
+    function LoadDSNhanVien()
+        {
+            
+            $("#txtTenNhanVien").autocomplete("ajax.aspx?do=LoadDSNV",{ formatItem: function(data) { return data[1]; }, width: 700,scrollHeight: 500,scroll:true,resultsClass: "ac_results",loadingClass: "ac_loading"
+            ,autoFill:true})
+            .result(function(event,data,formated)
+                {
+                    if(data){
+                        document.getElementById("txtIdNhanVien").value=data[2];                       
+                    }
+                });
+            ;
+        }
+    </script>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="MyPage">
+    <div id="Menu" style="background-color:White;text-align:left">
+	    <uc1:uscmenu ID="Uscmenu1" runat="server" />
+	</div>
+	<br />
+	<div id="header">
+		LƯƠNG NHÂN VIÊN
+	</div>
+	<div id="NoiDung" style="background-color:White;width:95%">
+		<div id="tableBig">			
+			<div class="tableBig-row">
+			    <div style="width:100px;float:left;text-align:right">Nhân viên:&nbsp;</div>
+			    <div style="width:200px;float:left;"><input class="input" id="txtTenNhanVien" runat="server" style="width:163;" onfocus="LoadDSNhanVien();"  /><input type="hidden" runat="server" id="txtIdNhanVien" />  </div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Tháng năm:&nbsp;</div>
+			   <div style="width:200px;float:left;" >
+			       <asp:textbox runat="server"  CssClass="input" id="txtThangNam"></asp:textbox>
+                </div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Lương cơ bản:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtLuongCoBan" Width="152px"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Phụ cấp:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server"   id="txtLuongPhuCap" ></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left">Lương ngoài giờ:&nbsp;</div>
+			   <div style="width:180px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtLuongNgoaiGio"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:120px;float:left;text-align:right">Tiền thưởng:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtTienThuong"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Lý do thưởng:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" Width="190px" id="txtLyDoThuong"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Tiền phạt:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtTienPhat" Width="110px"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Lý do phạt:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" Width="190px" id="txtLyDoPhat"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left; text-align:right">Bảo hiểm y tế:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtBaoHiemYT"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">BH thất nghiệp:&nbsp;</div>
+			   <div style="width:180px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtBaoHiemThatNghiep"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:120px;float:left;text-align:right">BH xã hội:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtBaoHiemXH"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Thuế thu nhập:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtThueThuNhap"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Tổng lương:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtTongLuong"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left">Số ngày làm việc:&nbsp;</div>
+			   <div style="width:180px;float:left;" ><asp:textbox CssClass="input" runat="server" Width="150px" id="txtSoNgayLamViec"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Số ngày nghỉ:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtSoNgayNghi"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Lương một ngày:&nbsp;</div>
+			   <div style="width:190px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtLuongMotNgay"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:110px;float:left;text-align:right">Lương theo ngày:&nbsp;</div>
+			   <div style="width:180px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtLuongTheoNgay"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Số giờ tăng ca:&nbsp;</div>
+			   <div style="width:200px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtSoGioTangCa"></asp:textbox></div>
+			</div>
+			<div class="tableBig-row">
+			   <div style="width:100px;float:left;text-align:right">Lương theo giờ:&nbsp;</div>
+			   <div style="width:190px;float:left;" ><asp:textbox CssClass="input" runat="server" id="txtLuongTheoGio"></asp:textbox></div>
+			</div>															
+			<div  class="tableBig-row" style="clear:left;text-align:center;width:600px;">
+			    <div style="width:60px;float:left">
+                    <asp:Button ID="btnLuu" Width="50px" runat="server" Text="Lưu" OnClick="btnLuu_Click"  />
+                </div>
+                <div style="width:60px;float:left">
+                    <asp:Button ID="btnMoi" Width="50px" runat="server" Text="Mới" OnClick="btnMoi_Click"  />
+			    </div>
+			    <div style="width:60px;float:left">
+                    <asp:Button ID="btnXoan" Width="50px" runat="server" Text="Xóa" OnClick="btnXoan_Click"  />
+			    </div>
+			    <div style="width:60px;float:left">
+                    <asp:Button ID="bntTim" Width="50px" runat="server" Text="Tìm" OnClick="bntTim_Click"   />
+			    </div>
+			    	 <div style="width:100px;float:left">
+                    <asp:Button ID="btnExcel" Width="96px" runat="server" Text="Xuất Excel" OnClick="btnExcel_Click" />
+			    </div>	
+	
+			    <div><input runat="server" id="txtidLuongNhanVien" type="hidden"/></div>		    
+			</div>
+		</div>
+		<br />
+		<div style="background-image:url(../images/menu.jpg);font-weight:bold;color:White;text-align:left;padding-left:10px">
+		DANH SÁCH BẢNG LƯƠNG NHÂN VIÊN
+	</div>
+	<br />
+		<div style="clear:both;margin:0 auto;display:table;">
+		    <asp:GridView ID="gidLuongNhanVien" runat="server" Width="1101px"  AutoGenerateColumns="False" DataKeyNames="idluongnhanvien" OnRowDeleting="gidLuongNhanVien_RowDeleting" OnSelectedIndexChanging="gidLuongNhanVien_SelectedIndexChanging" 
+		    	 HeaderStyle-CssClass="HeaderStyle" CssClass="GridViewStyle" PagerStyle-CssClass="PagerStyle" RowStyle-CssClass="RowStyle">                            
+                <Columns>
+                    <asp:CommandField DeleteText="X&#243;a" SelectText="Xem" ShowSelectButton="True" />
+                    <asp:CommandField DeleteText="X&#243;a" ShowDeleteButton="True" />
+                    <asp:BoundField DataField="STT" HeaderText="STT" />
+                    <asp:BoundField DataField="tennhanvien" HeaderText="T&#234;n nh&#226;n vi&#234;n" />
+                    <asp:BoundField DataField="thangnam" HeaderText="Th&#225;ng-năm" />
+                    <asp:BoundField DataField="luongcanban" HeaderText="Lương căn bản" />
+                    <asp:BoundField DataField="luongphucap" HeaderText="Lương phụ cấp" />
+                    <asp:BoundField DataField="luongngoaigio" HeaderText="Lương ngo&#224;i giờ" />
+                    <asp:BoundField DataField="tienthuong" HeaderText="Tiền thưởng" />
+                </Columns>
+                                                   
+            </asp:GridView>            
+		</div>		
+	</div>
+</div>
+</form>
+</body>
+</html>
+<!--#include file ="footer.htm"-->

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc_donvitinh ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TenDVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="nvk_UuTienYL" TYPE_NAME="int" />
+</thuoc_donvitinh>

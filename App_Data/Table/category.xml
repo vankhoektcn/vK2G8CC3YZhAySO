@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<category ID="cateid">
+  <COLUMN COLUMN_NAME="cateid" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="catename" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="des" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dinhdanhimei" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="loaithuocid" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SoTT" TYPE_NAME="nvarchar" />
+</category>

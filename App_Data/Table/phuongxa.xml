@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phuongxa ID="phuongxaid">
+  <COLUMN COLUMN_NAME="phuongxaid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="quanhuyenid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tenphuongxa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MaPhuongXa" TYPE_NAME="nchar" />
+  <COLUMN COLUMN_NAME="KYHIEU" TYPE_NAME="varchar" />
+</phuongxa>

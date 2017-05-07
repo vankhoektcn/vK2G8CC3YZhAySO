@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nghenghiep ID="idNgheNghiep">
+  <COLUMN COLUMN_NAME="idNgheNghiep" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="MaNgheNghiep" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TenNgheNghiep" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tennghenghieptheoboyte" TYPE_NAME="nvarchar" />
+</nghenghiep>

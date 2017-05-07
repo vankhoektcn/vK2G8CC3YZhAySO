@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phieuxuatkho ID="idphieuxuat">
+  <COLUMN COLUMN_NAME="idphieuxuat" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="maphieuxuat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaythang" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="nguoinhan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="xuatcho" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="idkho" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="loaixuat" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IDKhachHang" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="vat" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="thanhtien" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ngayhoadon" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idnhacungcap" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idkho2" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idnguoixuat" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdBenhNhanToaThuoc" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="SLPX" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="tkNo" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TKVAT" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TKCo" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdCaPhauThuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDaHuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LANSUA" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="MaPhieu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYSUA" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NGUOISUA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdLoaiThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBenhNhan" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDKHAMBENH1" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDPHIEUYC" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SOPHIEUYC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ISHONGVO" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="NGAYDUKIEN" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NGAYTHANG_PREV" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IDPHIEUYCTRA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDPHIEUXUAT_YCXUAT" TYPE_NAME="bigint" />
+</phieuxuatkho>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<yc_phieuyctra ID="IdPhieuYc">
+  <COLUMN COLUMN_NAME="IdPhieuYc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SoPhieuYc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgayYc" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IdKhoYc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKhoDuyet" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNguoiYc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNguoiDuyet" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NgayDuyet" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IsDuyetTra" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LoaiThuocID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idphieuxuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TuNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DenNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IsTraTienBN" TYPE_NAME="bit" />
+</yc_phieuyctra>

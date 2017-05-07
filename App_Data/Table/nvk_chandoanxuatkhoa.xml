@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nvk_chandoanxuatkhoa ID="idCDXuatKhoa">
+  <COLUMN COLUMN_NAME="idCDXuatKhoa" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idxuatkhoa" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idicd" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="MoTaChanDoan_XK" TYPE_NAME="nvarchar" />
+</nvk_chandoanxuatkhoa>

@@ -1,0 +1,363 @@
+﻿body
+{
+	background-color: #e9e9e9;
+}
+*
+{
+	font-size: 13px;
+	font-family: Tahoma;
+	font-weight: normal;
+}
+*:focus
+{
+	outline: none;
+}
+a
+{
+	color: green;
+	background: transparent;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+input
+{
+	color: #444;
+}
+
+.body-div .in-a input, select
+{
+	padding: 2px 4px;
+}
+.body-div .in-a
+{
+	color: #4473ca;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+table input[type="text"]
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+table select
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 1px solid #D9D9D9;
+	background: white;
+}
+.div-Out
+{
+	float: left;
+	padding: 0px 0px 0px 20px;
+	width: 300px;
+	position: relative;
+	border-bottom: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	height: 42px;
+	line-height: 42px;
+}
+.div-Out h4
+{
+	float: left;
+	color: black;
+	font-size: 12px;
+	position: relative;
+	bottom: 0;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	line-height: 32px;
+}
+.div-Out p
+{
+	width: 60%;
+	float: right;
+	border-left: 1px solid #efefef;
+	position: relative;
+	bottom: 0;
+}
+.div-Out p input
+{
+	margin-top: 5px;
+}
+.body-out
+{
+	margin: 0 auto 0 auto;
+	color: #326ea1;
+	width: 98%;
+	background: #D4D0C8;
+	border: 1px solid #cfcfcf;
+	padding: 0px 5px 20px 5px;
+	position: relative;
+	box-radius: 0px 0px 5px #cae3ff;
+	-moz-box-radius: 0px 0px 5px #cae3ff;
+	-webkit-box-radius: 0px 0px 5px #cae3ff;
+}
+
+.header-div
+{
+	background: #3199C4 url(../../images/ui-bg_gloss-wave_75_2191c0_500x100.png) repeat-x center;
+	height: 25px;
+	color: white;
+	text-transform: uppercase;
+	zoom: 1;
+	top: 60px;
+	left: -21px;
+	padding: 7px 40px 6px 0px;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	font-size: 17px;
+	font-weight: bolder;
+	border: 2px solid #cfcfcf;
+	line-height: 25px;
+}
+.header-div .in-a
+{
+	background: url(../images/commentList-title-border.jpg) 0 100% no-repeat;
+	height: 1px;
+	position: absolute;
+	top: -35px;
+	left: 0;
+}
+.header-div .in-b
+{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 29px;
+	height: 29px;
+	padding: 0;
+	background: url(../images/sprite.png) -30px -66px;
+}
+.body-div
+{
+	margin-top: -50px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #cfcfcf;
+	background: #D4D0C8;
+}
+.body-div .in-a
+{
+	padding-bottom: 10px;
+	display: inline-block;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.body-div-button
+{
+	background: #D4D0C8;
+	text-align: center;
+	position: relative;
+	padding: 5px 5px 120px 5px;
+	border-top: none;
+	width: 98.8%;
+}
+.body-div-button .in-a
+{
+	padding: 10px 0 10px 22px;
+	background-color: #D4D0C8;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	left: -10px;
+	width: 100%;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.body-div-button .in-c
+{
+	padding: 10px 0 10px 22px;
+	background-color: #D4D0C8;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	left: -10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.body-div-button .in-b
+{
+	overflow: auto;
+	top: 60px;
+	width: 100%;
+	position: relative;
+}
+
+.reload
+{
+	background: url(../images/reload.gif) no-repeat;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	float: right;
+}
+.reload:hover
+{
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	border: 1px dashed #a84444;
+}
+input:focus, select:focus
+{
+	background-color: #ffff99;
+}
+
+.hovermenu
+{
+	padding: 3px 2px 3px 2px;
+	font-size: 13px !important;
+	color: #333 !important;
+	font-weight: normal !important;
+	font-family: Times New Roman !important;
+	z-index: 1000;
+}
+.hovermenu a
+{
+	text-decoration: none;
+}
+.shovermenu
+{
+	padding: 3px 2px 3px 2px;
+	font-size: 13px !important;
+	color: #333 !important;
+	font-weight: bold !important;
+	font-family: Times New Roman !important;
+	z-index: 1000;
+}
+
+.sola
+{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+#divalert
+{
+	z-index: 10000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#diverror
+{
+	z-index: 10000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.success
+{
+	background: 16px 16px no-repeat url(../images/success.png);
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+
+.info
+{
+	background: 16px 16px no-repeat url(../images/info.png);
+	color: #00529B;
+	background-color: #BDE5F8;
+}
+
+.error
+{
+	background: 16px 16px no-repeat url(../images/error.png);
+	color: #d8000c;
+	background-color: #ffbaba;
+}
+#layDS, #btnOK, #btnCancel
+{
+	border: 1px solid #77d5f7;
+	background: #0078ae url(../images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;
+	color: #eaf5f7;
+	font-weight: bold;
+	height: 25px;
+	width: 80px;
+}
+#layDS:focus, #btnOK:focus, #btnCancel:focus
+{
+	border: 1px solid #448dae;
+	background: #79c9ec url(../images/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #026890;
+}
+#layDS:hover, #btnOK:hover, #btnCancel:hover
+{
+	border: 1px solid #448dae;
+	background: #79c9ec url(../images/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x;
+	font-weight: normal;
+	color: #026890;
+	cursor: pointer;
+}
+.sum
+{
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	background: url(../../images/footer.png) repeat-x top center;
+}
+.sum span
+{
+	text-align: center;
+	font-weight: bold !important;
+}
+h3
+{
+	clear: both;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	line-height: 25px;
+}
+.div-set
+{
+	float: left;
+	padding: 0px 0px 0px 20px;
+	width: 300px;
+	position: relative;
+	border-bottom: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+}
+.div-box
+{
+	float: left;
+	width: 350px;
+	margin: 10px;
+}

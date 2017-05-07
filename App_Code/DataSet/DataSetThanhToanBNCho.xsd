@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetThanhToanBNCho" targetNamespace="http://tempuri.org/DataSetThanhToanBNCho.xsd" xmlns:mstns="http://tempuri.org/DataSetThanhToanBNCho.xsd" xmlns="http://tempuri.org/DataSetThanhToanBNCho.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsPropertyName="PKDKhoaConnectionString" ConnectionStringObject="Data Source=MKV16;Initial Catalog=PKDKhoa;User ID=haison;Password=123" IsAppSettingsProperty="False" Modifier="Assembly" Name="PKDKhoaConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetThanhToanBNCho" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetThanhToanBNCho" msprop:Generator_DataSetName="DataSetThanhToanBNCho">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPhieuTT" msprop:Generator_UserTableName="dtPhieuTT" msprop:Generator_RowDeletedName="dtPhieuTTRowDeleted" msprop:Generator_RowChangedName="dtPhieuTTRowChanged" msprop:Generator_RowClassName="dtPhieuTTRow" msprop:Generator_RowChangingName="dtPhieuTTRowChanging" msprop:Generator_RowEvArgName="dtPhieuTTRowChangeEvent" msprop:Generator_RowEvHandlerName="dtPhieuTTRowChangeEventHandler" msprop:Generator_TableClassName="dtPhieuTTDataTable" msprop:Generator_TableVarName="tabledtPhieuTT" msprop:Generator_RowDeletingName="dtPhieuTTRowDeleting" msprop:Generator_TablePropName="dtPhieuTT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoiDung" msprop:Generator_UserColumnName="NoiDung" msprop:Generator_ColumnVarNameInTable="columnNoiDung" msprop:Generator_ColumnPropNameInRow="NoiDung" msprop:Generator_ColumnPropNameInTable="NoiDungColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SoTien" msprop:Generator_UserColumnName="SoTien" msprop:Generator_ColumnVarNameInTable="columnSoTien" msprop:Generator_ColumnPropNameInRow="SoTien" msprop:Generator_ColumnPropNameInTable="SoTienColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="MaVach" msprop:Generator_UserColumnName="MaVach" msprop:Generator_ColumnVarNameInTable="columnMaVach" msprop:Generator_ColumnPropNameInRow="MaVach" msprop:Generator_ColumnPropNameInTable="MaVachColumn" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

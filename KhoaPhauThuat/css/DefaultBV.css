@@ -1,0 +1,343 @@
+﻿
+*:focus
+{
+	outline: none;
+}
+a
+{
+	color: green;
+}
+
+.body-div .in-a
+{
+	color: #191919;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.shadow
+{
+	box-shadow: 0px 0px 5px #cae3ff;
+	-moz-box-shadow: 0px 0px 5px #cae3ff;
+	-webkit-box-shadow: 0px 0px 5px #cae3ff;
+	-ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=125, Color= '#cae3ff' );
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=125, Color= '#cae3ff' );
+}
+.div-Out
+{
+	float: left;
+	padding: 0px 0px 0px 20px;
+	width: 420px;
+	height: 30px;
+	border-bottom: 1px dotted #999;
+	position: relative;
+}
+
+.div-Out h4
+{
+	float: left;
+	position: absolute;
+	font-size: 12px;
+	margin: 0;
+	bottom: 0;
+	padding-bottom: 2px;
+}
+.div-Out p
+{
+	width: 60%;
+	float: right;
+	height: 69%;
+	border-left: 1px solid #999;
+	padding: 5px 0px 5px 20px;
+	position: relative;
+	margin: 0;
+}
+.div-Out p span
+{
+	position: relative;
+	bottom: -10px;
+	color: #0a65f6;
+	font-weight: bold;
+}
+.body-out
+{
+	margin: 0 auto 0 auto;
+	color: #326ea1;
+	width: 980px;
+	border: 1px solid #cfcfcf;
+	padding: 0 10px 50px 10px;
+	position: relative;
+	box-radius: 0px 0px 5px #cae3ff;
+	-moz-box-radius: 0px 0px 5px #cae3ff;
+	-webkit-box-radius: 0px 0px 5px #cae3ff;
+}
+
+.header-div
+{
+	background: #4d67a2 url(./images/commentList-title.jpg) repeat-y 0 0;
+	color: white;
+	text-shadow: 1px 1px #E6EFFC;
+	text-transform: uppercase;
+	zoom: 1;
+	top: 60px;
+	left: -21px;
+	height: 27px;
+	padding: 7px 40px 6px 0px;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 2px solid #999;
+}
+.body-div
+{
+	margin-top: -50px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #cfcfcf;
+	border-bottom: none;
+	background: #d4d0c8;
+	position: relative;
+}
+.body-div .in-a
+{
+	padding-bottom: 10px;
+	display: inline-block;
+	width: 100%;
+	padding-top: 65px;
+}
+
+.body-div-button
+{
+	background: #d4d0c8;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	border: 1px solid #999;
+	padding: 5px 5px 120px 5px;
+	border-top: none;
+	width: 98.8%;
+}
+.body-div-button .in-a
+{
+	padding: 10px 0 10px 22px;
+	border: none;
+	left: -10px;
+	width: 100%;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.body-div-button .in-c
+{
+	padding: 10px 0 10px 22px;
+	background-color: transparent;
+	border: none;
+	left: -10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.body-div-button .in-b
+{
+	overflow: auto;
+	top: 60px;
+	width: 100%;
+	position: relative;
+}
+
+#divalert
+{
+	z-index: 10000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #fff;
+}
+
+#diverror
+{
+	z-index: 10000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+#imghiep
+{
+	font-size: xx-large;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 40%;
+	z-index: 1000;
+	display: block;
+}
+.reload
+{
+	background: url(../images/reload.gif) no-repeat;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	float: right;
+}
+.reload:hover
+{
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	border: 1px dashed #a84444;
+}
+input:focus, select:focus
+{
+	background-color: Yellow;
+}
+/*
+#chonCLS,#_luu,#luu,#phieumoi,#xoa,#intoathuoc_dv,#intoathuoc_bh,#incls_dv,#incls_bh
+{
+	border: 1px solid #77d5f7; 
+	background: #0078ae url(../images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x; 
+	color: #999; 
+	font-weight: bold;
+	height:25px;width:80px
+}
+#chonCLS:focus,#_luu:focus,#luu:focus,#phieumoi:focus,#xoa:focus,#intoathuoc_dv:focus,#intoathuoc_bh:focus,#incls_dv:focus,#incls_bh:focus{border: 1px solid #448dae; background: #79c9ec url(../images/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #026890;}
+#chonCLS:hover,#_luu:hover,#luu:hover,#phieumoi:hover,#xoa:hover,#intoathuoc_dv:hover,#intoathuoc_bh:hover,#incls_dv:hover,#incls_bh:hover{border: 1px solid #448dae; background: #79c9ec url(../images/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #026890;cursor:pointer;}
+*/
+.hovermenu
+{
+	padding: 3px 2px 3px 2px;
+	font-size: 13px !important;
+	color: #333;
+	font-weight: normal;
+	font-family: Times New Roman;
+	z-index: 1000;
+}
+
+.shovermenu
+{
+	padding: 3px 2px 3px 2px;
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	font-family: Arial;
+	z-index: 1000;
+}
+
+.sola
+{
+	position: fixed;
+	top: 0;
+	margin: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+#divalert
+{
+	z-index: 1000000000000000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#diverror
+{
+	z-index: 1000000000000000;
+	position: fixed;
+	display: table;
+	padding: 20px 50px 20px 70px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#divalert.success {
+background: 16px 16px no-repeat url(../../images/success.png);
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+
+#divalert.info {
+background: 16px 16px no-repeat url(../../images/info.png);
+color: #00529B;
+background-color: #BDE5F8;
+}
+
+#diverror.error {
+background: 16px 16px no-repeat url(../../images/error.png);
+color: #d8000c;
+background-color: #ffbaba;
+}
+#xuatvien
+{
+	margin:0;
+	padding:0;
+	background-color:#d4d0c8;
+}
+#xuatvien legend
+{
+	font-weight:bold;
+	text-align:left;
+	color:#18538c;
+}
+#xuatvien .div-Out
+{
+	width:450px;
+}
+#xuatvien .div-Out input[type='text'],#xuatvien .div-Out select,#xuatvien .div-Out textarea
+{
+	margin:2px;
+	padding:3px;
+	line-height:18px;
+	color:#333;
+	border:1px solid #666;
+	float:left;
+}
+#xuatvien .div-Out p
+{
+	padding:0px 0px 5px 10px;
+}
+#xuatvien .div-Out h4
+{
+	font-size:12px;
+	line-height:18px;
+	height:18px;
+	font-family:Tahoma, Verdana;
+}

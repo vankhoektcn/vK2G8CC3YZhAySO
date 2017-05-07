@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_loaibn ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TenLoai" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="GiamGiaKB" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="TTUT" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="iskhamtruoc" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="MALOAIBN" TYPE_NAME="nvarchar" />
+</kb_loaibn>

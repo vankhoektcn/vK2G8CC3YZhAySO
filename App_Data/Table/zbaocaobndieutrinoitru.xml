@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zbaocaobndieutrinoitru ID="ID">
+  <COLUMN COLUMN_NAME="ID" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="mabenhnhan" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenbenhnhan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="chandoan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="BHYT" TYPE_NAME="nchar" />
+  <COLUMN COLUMN_NAME="DICHVU" TYPE_NAME="nchar" />
+</zbaocaobndieutrinoitru>

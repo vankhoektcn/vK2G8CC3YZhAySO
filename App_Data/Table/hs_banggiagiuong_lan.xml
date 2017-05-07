@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_banggiagiuong_lan ID="BANGGIAID">
+  <COLUMN COLUMN_NAME="BANGGIAID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TUNGAY" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="LANID" TYPE_NAME="int" />
+</hs_banggiagiuong_lan>

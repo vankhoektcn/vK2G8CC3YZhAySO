@@ -1,0 +1,130 @@
+﻿*
+{
+	outline:none;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: #e9f7fc url(../images/body.jpg) repeat-x fixed top left;
+	overflow: hidden;
+}
+
+#divMain
+{
+	position: relative;
+	margin: 0;
+}
+#art-l
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	/*background: url(../images/art.png) no-repeat top left;*/
+	margin-right: 0;
+	height: 312px;
+}
+#art-right
+{
+	background: url(../images/art-r.png) no-repeat right bottom;
+	height: 312px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+#art-main
+{
+	border: 1px solid #18538c;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	padding: 0.5% 0.5% 0.5% 3%;
+	background: #f1f9f2;
+	margin: 10% 13% 3% 13%;
+}
+.menu
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-align: left;
+	width: 25%;
+	float: left;
+	padding: 10px 0px 10px 0px;
+	height: 50px;
+	line-height: 50px;
+}
+.menu a:link, .menu a:visited
+{
+	font-family: tahoma;
+	font-size: 12px;
+	color: #5E5F61;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu a
+{
+	line-height: 50px;
+	vertical-align: top;
+	padding-left: 5%;
+	border: 0;
+}
+.menu u
+{
+	vertical-align: top;
+}
+.menu a:hover
+{
+	color: #ff0036;
+}
+.middle
+{
+	margin: 0 auto;
+	float: none;
+}
+.clr
+{
+	clear: both;
+}
+#divMain #copyright
+{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	margin-right: 0;
+	background: url(../images/line.jpg) repeat-x top center;
+	height: 29px;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 1%;
+	line-height: 25px;
+}
+#divMain #copyright a
+{
+	color: #18538c;
+	text-decoration: none;
+}
+#divMain #copyright a:hover
+{
+	color: #ff0000;
+}
+#divMain #copy-l
+{
+	float: left;
+	padding-left: 1.5%;
+}
+#divMain #copy-r
+{
+	float: right;
+}
+a
+{
+	text-decoration:none;
+	border:0;
+}

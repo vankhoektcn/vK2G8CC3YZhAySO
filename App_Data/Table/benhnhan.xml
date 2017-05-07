@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<benhnhan ID="idbenhnhan">
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="mabenhnhan" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenbenhnhan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="idloaiuutien" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="diachi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dienthoai" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="gioitinh" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="ngaysinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="chungminhthu" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="loai" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="nghenghiep" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="noicongtac" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="chandoansobo" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaytiepnhan" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DungTuyen" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="email" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NguoiLH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DiaChiLH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DienThoaiLH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NameNotSign" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tinhid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="quanhuyenid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="phuongxaid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="sonha" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoThang" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="quoctich" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dantoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoTuoi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="lidovaovien" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SLBN" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="sobhyt" TYPE_NAME="nvarchar" />
+</benhnhan>

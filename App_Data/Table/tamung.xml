@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tamung ID="IDTamUng">
+  <COLUMN COLUMN_NAME="IDTamUng" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="iddangkykham" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="sotien" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ngayTamung" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NgayHoanUng" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="SoCTHU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoTienHU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="GhiChu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoCTTU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dahoanung" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="QuyenSo" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsDaThu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LyDoTU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsDaHuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idkhoaTU" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="MAPHIEU_TU" TYPE_NAME="nvarchar" />
+</tamung>

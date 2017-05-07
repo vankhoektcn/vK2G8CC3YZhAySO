@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bacsi_ekip ID="id">
+  <COLUMN COLUMN_NAME="id" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="idkhambenh" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idvaitro" TYPE_NAME="bigint" />
+</bacsi_ekip>

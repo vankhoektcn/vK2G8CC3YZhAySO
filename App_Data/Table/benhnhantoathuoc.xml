@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<benhnhantoathuoc ID="idbenhnhantoathuoc">
+  <COLUMN COLUMN_NAME="idbenhnhantoathuoc" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="matoathuoc" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="idkhambenh" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngayratoa" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idnguoiban" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngayban" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="bacsixoa" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="quaythuocxoa" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="idphieuthanhtoan" TYPE_NAME="int" />
+</benhnhantoathuoc>

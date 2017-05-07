@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zhistorychange ID="ID">
+  <COLUMN COLUMN_NAME="ID" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TableName" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SaveDate" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="Description" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="TypeEdit" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdKhoaChinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdNguoiDung" TYPE_NAME="int" />
+</zhistorychange>

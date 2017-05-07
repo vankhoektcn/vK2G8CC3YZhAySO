@@ -1,0 +1,1204 @@
+.text_main {
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+.khung {
+	border: 1px solid #FF9900;
+}
+
+.khung_FFFFFF {
+	border: 1px solid #FFFFFF;
+}
+
+.input_orange 
+{
+	/*position:fixed;*/
+	font-weight: normal;
+	font-family: tahoma;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFEBCC;
+	border: 1px solid #FF6600;
+	height: 16px;	
+	
+}
+
+.textarea_orange 
+{
+font-weight: normal;
+	font-family: tahoma;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFEBCC;
+	border: 1px solid #FF6600;
+	height: 114px;	
+}
+
+.button_orange {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF9900;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	width: 70px;
+	height:20px;
+}
+
+.khung_gach {
+	border: 1px dashed #FF9900;
+}
+
+
+.LeftTopRight {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-style: solid;
+		
+	border-right-color: #FFAB2D;
+	border-left-color: #FFAB2D;
+	border-top-color: #FFAB2D;
+}
+
+.LeftRight {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	
+	border-right-style: solid;
+	border-left-style: solid;
+	
+	border-right-color: #FFBA47;
+	border-left-color: #FFBA47;
+}
+
+.LeftBottomRight {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	
+	border-right-color: #FFBA47;
+	border-left-color: #FFBA47;
+	border-bottom-color: #FFBA47;
+}
+
+.BottomRight {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	
+	border-right-style: solid;
+	border-bottom-style: solid;
+	
+	border-right-color: #FF9900;
+	border-bottom-color: #FF9900;
+}
+
+.Bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF9900;
+}
+
+.Bottom_gachngang {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;  
+	border-bottom-color: #FF9900;
+}
+
+.Right {
+	font-family: tahoma;
+	font-size: 11px;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FF9900;
+}
+
+
+.link1 A:link {
+	font-size:11px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+		font-family: tahoma;
+
+}
+.link1 A:hover {
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.link1 A:visited {
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	font-family:TAHOMA;
+}
+
+.link2 A:link {
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+		font-family: tahoma;
+
+}
+.link2 A:hover {
+	font-size:11px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.link2 A:visited {
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.link3 A:link 
+{
+	
+	font-size:11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: tahoma;
+		
+
+}
+.link3 A:hover 
+{
+	
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+.link3 A:visited
+{
+	
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+.text_main td.img
+{
+	
+	background:url(../images/mui_ten.gif) no-repeat center;
+	width:9px;
+	height:8px;
+	
+}
+
+table.header td a.trangchu
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c2_01.jpg) no-repeat;
+	width:104px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td a.trangchuover
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c2.jpg) no-repeat;
+	width:104px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td a.lienhe
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c4_01.jpg) no-repeat;
+	width:73px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td a.lienheover
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c4.jpg) no-repeat;
+	width:73px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td a.gopy
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c3_01.jpg) no-repeat;
+	width:69px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td a.gopyover
+{
+	
+	background:url(../images/MENU_BANNER_TEMPLATES_r2_c3.jpg) no-repeat;
+	width:69px;
+	height:27px;
+	display:block;
+	
+}
+
+.clock
+{
+	
+	color:#FF6600;
+	font-weight:bold;
+	font-family:Tahoma;
+	font-size:12px;
+	background-color:#FFF0D9;
+	
+}
+
+table.header td.borderright
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c5.jpg) no-repeat;
+	width:19px;
+	height:27px;
+	display:block;
+	
+}
+
+table.header td.borderleft
+{
+	
+	background:url(../images/index_BANNER_r2_c1.jpg) no-repeat;
+	width:19px;
+	height:27px;
+	display:block;
+	
+}
+
+
+table.header td.bottom
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r3_c1.jpg) repeat-x;
+	width:942px;
+	height:27px;
+	
+}
+
+table.lienhe td.title
+{
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Tahoma;
+	font-style:italic;
+	
+}
+
+table.lienhe td.company
+{
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	font-family:Tahoma;
+	
+}
+
+table.lienhe td.address
+{
+	
+	text-align:center;
+	font-weight:lighter;
+	font-size:12px;
+	font-family:Tahoma;
+	height:18px;
+	
+}
+
+table.lienhe td.address1
+{
+	
+	text-align:left;
+	padding-left:82px;
+	font-weight:lighter;
+	font-size:12px;
+	font-family:Tahoma;
+	height:18px;
+		
+}
+
+table.lienhe td.address2
+{
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+	font-family:Tahoma;
+	height:18px;
+	
+}
+
+table.content td.item
+{
+	
+	font-weight:lighter;
+	font-size:12px;
+	font-family:Tahoma;
+	height:18px;
+	background-color:white;
+	text-align:center;
+	
+}
+
+table.content td.item input.input
+{
+	
+	font-weight: normal;
+	font-family: tahoma;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFEBCC;
+	border: 1px solid #FF6600;
+	height: 20px;	
+	
+}
+
+table.content td.item textarea.input
+{
+	
+	font-weight: normal;
+	font-family: tahoma;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFEBCC;
+	border: 1px solid #FF6600;
+	
+}
+
+.text_main a
+{
+	text-decoration:none;
+	color:Black;
+}
+
+.text_main a:hover
+{
+	text-decoration:underline;
+	color:Black;
+}
+
+.text_main span.style3
+{
+	
+	font-weight: normal;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:White;
+	
+}
+
+.ajax1
+{
+	
+	font-weight: normal;
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight:lighter;
+	color:blue;
+	
+}
+
+#tintuc td.content
+{
+	
+	padding: 10px;
+	
+}
+
+.tintuc td.tieude
+{
+	
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF6600;
+	padding-left:15px;
+	
+}
+
+.tintuc td.hinh
+{
+	
+	padding:5px;
+	
+}
+
+.tintuc td.noidung
+{
+	
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:lighter;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;	
+	
+	
+}
+
+.tintuc td.noidung span.x_img
+{
+	
+	padding-right:5px;
+	padding-bottom:5px;
+
+}
+
+a.page
+{
+
+	font-size:11px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+	font-family: tahoma;
+	cursor:pointer;
+	
+}
+
+a.page:hover
+{
+
+	font-size:11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	cursor:pointer;
+	
+}
+
+
+#product td.parent
+{
+	
+	background:url(../images/mui_ten.gif) no-repeat left center;
+	background-position:5px;
+	display:block;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;
+	color:#FF6600;
+	padding-left:19px;
+	height:20px;
+	border-left:1px solid #FFBA53;
+	border-right:1px solid #FFBA53;
+	
+}
+
+#product td.parent a
+{
+	
+	text-decoration:none;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;
+	color:#FF6600;
+	padding-left:15px;
+	
+}
+
+#product td.parent a:hover
+{
+	
+	text-decoration:none;
+	color:Black;
+	
+}
+
+#product 
+{
+	
+	background:url(../images/Index_MENU_Middle.jpg) repeat-x;
+	
+}
+
+#product td.child
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;
+	color:Black;
+	padding-left:0px;
+	height:20px;
+	border-left:1px solid #FFBA53;
+	border-right:1px solid #FFBA53;
+	
+}
+
+#product td.child a
+{
+	
+	text-decoration:none;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;
+	color:Black;
+	padding-left:20px;
+	
+}
+
+#product td.child a:hover
+{
+	
+	text-decoration:none;
+	color:#FF6600;
+	
+}
+
+#tinnoibo td.hinh
+{
+	
+	padding:5px;
+	
+}
+
+#tinnoibo td.noidung
+{
+	
+	font-family:Tahoma;
+	color:#FF6600;
+	font-size:11px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+#tinnoibo td.noidung a
+{
+	
+	font-family:Tahoma;
+	color:#FF6600;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	text-decoration:none;
+	text-align:justify ;
+	
+}
+
+#tinnoibo td.noidung a:hover
+{
+	
+	color:Black;
+	text-decoration:none;
+	
+}
+
+.SlideHinh 
+{
+	
+	padding-top:5px;
+	
+}
+
+.hosting td.tomtat
+{
+	
+	text-align:justify;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:Tahoma;
+	font-weight:lighter;
+	font-size:11px;
+	color:Black;
+	padding-top:10px;
+	
+}
+
+.hosting td.link
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	background:url(../images/mui_ten.gif) no-repeat left center;
+	background-position:25px;
+	height:25px;
+	
+}
+
+.hosting td.hinh
+{
+	
+	padding:5px;
+	
+}
+
+.hosting td.link a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	text-decoration:none;
+	padding-left:10px;
+	
+}
+
+.hosting td.link a:hover
+{
+	
+	color :Black;
+	text-decoration:none;
+	
+}
+
+.hosting td.linktin
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	background:url(../images/mui_ten.gif) no-repeat right center;
+	background-position:85%;
+	padding-right:25px;
+	height:25px;
+	
+}
+
+.hosting td.linktin a.detail
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	padding-right:5px;
+	text-decoration:none;
+	
+}
+
+.hosting td.linktin a.detail:hover
+{
+	
+	color :Black;
+	text-decoration:none;
+	
+}
+
+.dstintuc td.nextnews
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color :Black;
+	padding-left:20px;
+	height:20px;
+	
+}
+
+.dstintuc td.dstin
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	background:url(../images/mui_ten.gif) no-repeat left center;
+	padding-right:10px;
+	padding-left:10px;
+	display:block;
+	background-position:30px;
+	height:20px;
+	
+}
+
+.dstintuc td.dstin a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	padding-left:35px;
+	text-decoration:none;
+	
+}
+
+.dstintuc td.dstin a:hover
+{
+	
+	text-decoration:none;
+	color:Black;
+	
+}
+
+.footer td.link
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	background:url(../images/mui_ten.gif) no-repeat left center;
+	
+	
+	
+}
+
+.footer td.name
+{
+	
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	color :Black;
+	
+	
+}
+
+.footer td.link a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	padding-left:15px;
+	text-decoration:none;
+		
+}
+
+.footer td.link a:hover
+{
+	
+	text-decoration:none;
+	color:Black;
+	
+}
+
+.group td.link
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	
+}
+
+.group td.name
+{
+	
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	color :Black;
+	
+	
+}
+
+.group td.link a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	padding-left:0px;
+	text-decoration:none;
+		
+}
+
+.group td.link a:hover
+{
+	
+	text-decoration:none;
+	color:Black;
+	
+}
+
+.template td.link
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :red;
+	
+}
+
+.template td.name
+{
+	
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	color :Black;
+	
+	
+}
+
+.template td.link a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :red;
+	padding-left:0px;
+	text-decoration:none;
+		
+}
+
+.template td.link a:hover
+{
+	
+	text-decoration:none;
+	color:Black;
+	
+}
+
+.ajax
+{
+	
+	font-family:Tahoma;
+	font-weight:lighter;
+	font-size:11px;	
+	color :Blue;
+	background:url(../images/processing.gif) no-repeat left center;
+	background-position:5px;
+	padding-left:30px;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.login
+{
+	
+	font-family:Tahoma;
+	font-weight:lighter;
+	font-size:12px;	
+	color :#FF6600;
+	padding-bottom:5px;
+	
+}
+
+.login a
+{
+	
+	font-family:Tahoma;
+	font-weight:lighter;
+	font-size:11px;	
+	color :#FF6600;
+	padding-bottom:5px;
+	text-decoration:none;
+	cursor:pointer;
+	
+}
+
+.login a.hover
+{
+	
+	font-family:Tahoma;
+	font-weight:lighter;
+	font-size:11px;	
+	padding-bottom:5px;
+	color :Black;
+	cursor:pointer;
+	text-decoration:none;
+	
+}
+
+.custom td.link a
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	text-decoration:none;
+	padding-left:25px;
+	
+}
+
+.custom td.link a:hover
+{
+	
+	color :Black;
+	text-decoration:none;
+	
+}
+
+.custom td.link
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	background:url(../images/mui_ten.gif) no-repeat left center;
+	background-position:10px;
+	height:18px;	
+	
+}
+
+.dichvu
+{
+	
+	border-left: 1px solid #FF9900;
+	border-top: 1px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	
+}
+
+.dichvu td.tieude
+{
+
+	border-right: 1px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	background-color:#FFE9CA;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	padding-top:5px;
+	
+}
+
+.dichvu td.chitiet
+{
+
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	color :Black ;
+	border-right: 1px solid #FF9900;
+	height:20px;
+	
+}
+
+.yeucau
+{
+
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600 ;
+	border:1px solid red;
+	
+}
+
+.yeucau a
+{
+
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color :#FF6600;
+	text-decoration:none;
+	
+}
+
+.yeucau a:hover
+{
+
+	color :Black;
+	text-decoration:none;
+	
+}
+
+
+table.headersupport td a.trangchu
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c2_01.jpg) no-repeat;
+	width:112px;
+	height:27px;
+	display:block;
+	
+}
+
+table.headersupport td a.trangchuover
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c2.jpg) no-repeat;
+	width:112px;
+	height:27px;
+	display:block;
+	
+}
+
+table.headersupport td a.goiyeucau
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c3_01.jpg) no-repeat;
+	width:109px;
+	height:27px;
+	display:block;
+	
+}
+
+table.headersupport td a.goiyeucauover
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c3.jpg) no-repeat;
+	width:109px;
+	height:27px;
+	display:block;
+	
+}
+
+table.headersupport td a.xemtraloi
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c4_01.jpg) no-repeat;
+	width:101px;
+	height:27px;
+	display:block;
+	
+}
+
+table.headersupport td a.xemtraloiover
+{
+	
+	background:url(../images/BANNER_HOTROKHACHHANG_r2_c4.jpg) no-repeat;
+	width:101px;
+	height:27px;
+	display:block;
+	
+}
+
+.giohang td.name
+{
+
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	padding-left:10px;
+	padding-top:5px;
+				
+}
+
+.giohang td.title
+{
+
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	padding-left:10px;
+	padding-top:5px;
+	color:#FF6600;
+				
+}
+
+.giohang td.showPhoneup
+{
+	
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	padding-top:5px;
+	padding-left:10px;
+	
+}
+
+.giohang td.showPhoneup a
+{
+	
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:11px;	
+	padding-left:10px;
+	text-decoration:none;
+	cursor:pointer;
+	
+}
+
+.giohang td.showPhoneup a:hover
+{
+	
+	text-decoration:none;
+	color:#FF6600;
+	
+}
+
+.loai
+{
+	
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:11px;	
+	color:#FF6600;
+	
+}
+
+.serviceParent
+{
+	color:#28e146;
+	background-color:#e25274;
+}
+
+.serviceChild
+{
+	background-color:#2cd7d9;
+	color:#f20909;
+}
+
+.popupimage div.bodydiv
+{
+	border:1px solid blue;
+	position:absolute;
+}
+

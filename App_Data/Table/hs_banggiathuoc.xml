@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_banggiathuoc ID="IDBANGGIA">
+  <COLUMN COLUMN_NAME="IDBANGGIA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TuNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DenNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="LanThu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="LoaiThuocID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ISBHYT" TYPE_NAME="bit" />
+</hs_banggiathuoc>

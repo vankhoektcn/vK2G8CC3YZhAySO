@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zdanhsachthuocsaphethan_chitiet ID="IDChiTiet">
+  <COLUMN COLUMN_NAME="IDChiTiet" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IdDanhSach" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TENTHUOC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="HOATCHAT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENDVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYNHAP" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="LOSANXUAT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYHETHAN" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="SOLUONGTON" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SOLUONG" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SOLUONGXUAT" TYPE_NAME="float" />
+</zdanhsachthuocsaphethan_chitiet>

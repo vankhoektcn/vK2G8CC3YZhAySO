@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<z_dsphieuthu_view ID="ID">
+  <COLUMN COLUMN_NAME="ID" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="MAPHIEU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IDBENHNHAN" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="mabenhnhan" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenbenhnhan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaysinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TONGTIEN" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NOIDUNGTHU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tennguoithu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="HuyPhieu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsDaHuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LyDoHuy" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgayHuy" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="TenNguoiHuy" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Khoa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="USERID" TYPE_NAME="int" />
+</z_dsphieuthu_view>

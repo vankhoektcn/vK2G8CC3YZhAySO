@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLuotKCB" targetNamespace="http://tempuri.org/dsLuotKCB.xsd" xmlns:mstns="http://tempuri.org/dsLuotKCB.xsd" xmlns="http://tempuri.org/dsLuotKCB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLuotKCB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLuotKCB" msprop:Generator_DataSetName="dsLuotKCB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLuotKCB" msprop:Generator_UserTableName="dtLuotKCB" msprop:Generator_RowDeletedName="dtLuotKCBRowDeleted" msprop:Generator_RowChangedName="dtLuotKCBRowChanged" msprop:Generator_RowClassName="dtLuotKCBRow" msprop:Generator_RowChangingName="dtLuotKCBRowChanging" msprop:Generator_RowEvArgName="dtLuotKCBRowChangeEvent" msprop:Generator_RowEvHandlerName="dtLuotKCBRowChangeEventHandler" msprop:Generator_TableClassName="dtLuotKCBDataTable" msprop:Generator_TableVarName="tabledtLuotKCB" msprop:Generator_RowDeletingName="dtLuotKCBRowDeleting" msprop:Generator_TablePropName="dtLuotKCB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dNgayCT" msprop:Generator_UserColumnName="dNgayCT" msprop:Generator_ColumnPropNameInRow="dNgayCT" msprop:Generator_ColumnVarNameInTable="columndNgayCT" msprop:Generator_ColumnPropNameInTable="dNgayCTColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SLDK" msprop:Generator_UserColumnName="SLDK" msprop:Generator_ColumnPropNameInRow="SLDK" msprop:Generator_ColumnVarNameInTable="columnSLDK" msprop:Generator_ColumnPropNameInTable="SLDKColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLDKKham" msprop:Generator_UserColumnName="SLDKKham" msprop:Generator_ColumnPropNameInRow="SLDKKham" msprop:Generator_ColumnVarNameInTable="columnSLDKKham" msprop:Generator_ColumnPropNameInTable="SLDKKhamColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLChoKham" msprop:Generator_UserColumnName="SLChoKham" msprop:Generator_ColumnPropNameInRow="SLChoKham" msprop:Generator_ColumnVarNameInTable="columnSLChoKham" msprop:Generator_ColumnPropNameInTable="SLChoKhamColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLDaKham" msprop:Generator_UserColumnName="SLDaKham" msprop:Generator_ColumnPropNameInRow="SLDaKham" msprop:Generator_ColumnVarNameInTable="columnSLDaKham" msprop:Generator_ColumnPropNameInTable="SLDaKhamColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLDKCLS" msprop:Generator_UserColumnName="SLDKCLS" msprop:Generator_ColumnPropNameInRow="SLDKCLS" msprop:Generator_ColumnVarNameInTable="columnSLDKCLS" msprop:Generator_ColumnPropNameInTable="SLDKCLSColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLChoCLS" msprop:Generator_UserColumnName="SLChoCLS" msprop:Generator_ColumnPropNameInRow="SLChoCLS" msprop:Generator_ColumnVarNameInTable="columnSLChoCLS" msprop:Generator_ColumnPropNameInTable="SLChoCLSColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SLDaCLS" msprop:Generator_UserColumnName="SLDaCLS" msprop:Generator_ColumnPropNameInRow="SLDaCLS" msprop:Generator_ColumnVarNameInTable="columnSLDaCLS" msprop:Generator_ColumnPropNameInTable="SLDaCLSColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Khoa" msprop:Generator_UserColumnName="Khoa" msprop:Generator_ColumnVarNameInTable="columnKhoa" msprop:Generator_ColumnPropNameInRow="Khoa" msprop:Generator_ColumnPropNameInTable="KhoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SLgBNMoi" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SLgBNTK" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

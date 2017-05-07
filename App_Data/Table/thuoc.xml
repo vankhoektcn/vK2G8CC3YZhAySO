@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc ID="idthuoc">
+  <COLUMN COLUMN_NAME="idthuoc" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="sttindm05" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tenthuoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="congthuc" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="duongdung" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="idnuocsanxuat" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idnhasanxuat" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="giabanhientai" TYPE_NAME="real" />
+  <COLUMN COLUMN_NAME="nhacungcapid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngayhethan" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idnhomthuoc" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="tlbhtt" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="sudungchobh" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="imei" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="iddvt" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="donvitinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoiDan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsVTYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="thuexuat" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="quycach" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsHoaChat" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nchar" />
+  <COLUMN COLUMN_NAME="LoaiThuocID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TTHoatChat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsThuocBV" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idhangsanxuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="CateID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsTGN" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsTHTT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdCachDung" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ISTPX" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISTKS" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISTDTL" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISTcorticoid" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="tkKho" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tkDoanhThu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tkGiaVon" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tkvat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tkco" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoLuong1donvi" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="TenDonVi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DVTChuan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="giabh" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="HamLuong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsDTUT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsThucSDBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="SLDVTChuan" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SLQuyDoi" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IsNgoaiTru" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="PRODUCTCODE" TYPE_NAME="nvarchar" />
+</thuoc>

@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="KhamBenh.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Quản lý bệnh viện</title>
+
+    <script src="../js/jquery-1.6.1.min.js" type="text/javascript"></script>
+
+    <script src="../js/jquery-ui.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.autocomplete.js" type="text/javascript"></script>
+
+    <script src="../js/myscript.jqr.js" type="text/javascript"></script>
+
+    <script src="../js/myScriptTest.js" type="text/javascript"></script>
+
+    <script src="../js/timepicker.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.alerts.js" type="text/javascript"></script>
+    
+    <link type="text/css" href="css/DefaultBV.css" rel="stylesheet" />
+    <link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
+    <link type="text/css" href="css/timepicker.css" rel="stylesheet" />
+    <link type="text/css" href="css/jquery.autocomplete.new.css" rel="stylesheet" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link type="text/css" href="css/jtable.css" rel="stylesheet" />
+    <link href="css/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <style>
+   .tieude{
+	            font-size:15px;
+	            font-weight:bold;
+	            color:blue;
+            }
+   </style>
+    <asp:contentplaceholder runat="server" id="header">
+    </asp:contentplaceholder>
+</head>
+<body style="background-color: #d4d0c8;">
+    <form id="form1" runat="server">
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        <div class="body-out" style="width: 98%;">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <marquee style="position: fixed; bottom: 0; width: 100%; text-align: center; height: 20px;
+        border-top: 1px solid #666666; left: auto; background-color: #EAE7E2; color: Blue;
+        left: 0"></marquee>
+</body>
+</html>

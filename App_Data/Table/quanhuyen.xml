@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<quanhuyen ID="quanhuyenid">
+  <COLUMN COLUMN_NAME="quanhuyenid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tinhid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="quanhuyenname" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MaQuanHuyen" TYPE_NAME="nchar" />
+</quanhuyen>

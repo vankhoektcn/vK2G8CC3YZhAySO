@@ -1,0 +1,16 @@
+﻿input.btn{ 
+	  color:#050; 
+	  font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+	  background-color:#fed; 
+	  border: 1px solid; 
+	  border-color: #696 #363 #363 #696; 
+	  filter:progid:DXImageTransform.Microsoft.Gradient 
+	  (GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa'); 
+	  cursor:pointer;
+	  width:auto;
+	  padding:2px 3px 2px 3px;
+} 
+input.btn:hover { 
+	border: 1px solid #f00;
+    background-color: #363;
+} 

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_phongkham ID="id">
+  <COLUMN COLUMN_NAME="id" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="PhongID" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="int" />
+</kb_phongkham>

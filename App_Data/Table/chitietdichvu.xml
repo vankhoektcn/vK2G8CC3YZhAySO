@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chitietdichvu ID="idchitietdichvu">
+  <COLUMN COLUMN_NAME="idchitietdichvu" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idbanggiadichvu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="tenchitiet" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="giatribinhthuong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="donvi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tennhom" TYPE_NAME="nvarchar" />
+</chitietdichvu>

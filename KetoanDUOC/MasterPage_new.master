@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeFile="MasterPage_new.master.cs"
+    Inherits="MasterPage_new" %>
+<%@ Register Src="~/KetoanDUOC/Web/uscmenu.ascx" TagName="uscMenu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <script src="../js/jquery-1.6.1.min.js" type="text/javascript"> </script>
+
+    <script src="../js/jquery-ui.js" type="text/javascript"> </script>
+
+    <script src="../js/jquery.autocomplete.js" type="text/javascript"> </script>
+
+    <script src="../js/jquery.validate.js" type="text/javascript"> </script>
+
+    <script src="../js/myscriptvalid.js" type="text/javascript"> </script>
+
+    <script src="../js/timepicker.js" type="text/javascript"> </script>
+
+    <script type="text/javascript" src="../js/myscript.jqr.js"></script>
+
+    <link type="text/css" href="css/jtable.css" rel="Stylesheet" />
+    <link type="text/css" href="css/Default.css" rel="Stylesheet" />
+    <link type="text/css" href="css/timepicker.css" rel="Stylesheet" />
+    <link type="text/css" href="css/jquery-ui.css" rel="Stylesheet" />
+    <link type="text/css" href="css/jquery.autocomplete.new.css" rel="Stylesheet" />
+
+    <script type="text/javascript">
+ $(document).ready(function() {
+  if ($.browser.msie<8) {
+      $("input[type=text],input[type=checkbox],textarea").live("focus",function(){
+            $(this).css("background-color","#ffff99");
+          }).live("blur",function(){
+                  $(this).css("background-color","");
+          });
+          
+     }
+ 	$('div.sola div a,input:image').click(function() {
+ 		$('#imghiep').show();
+ 	});
+ 	$(window).load(function() {
+ 		$('#imghiep').hide();
+ 	});
+
+ 	$("table.jtable tr:nth-child(odd)").addClass("odd");
+ 	$("table.jtable tr:nth-child(even) td:first-child").addClass("even-first");
+ 	$("table.jtable tr:nth-child(odd) td:first-child").addClass("odd-first");
+ });
+    
+
+    </script>
+
+    <asp:contentplaceholder runat="server" id="header">
+        </asp:contentplaceholder>
+</head>
+<body style="background-color: #eee">
+    <form id="form1" runat="server">
+        <div style="background-color: #EAEBE6; z-index: 1000; position: relative">
+            <uc1:uscMenu ID="Uscmenu1" runat="server" />
+        </div>
+        <div class="body-out">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="imghiep">
+        Đang chạy,xin chờ ...
+    </div>
+    <div style="float: right; vertical-align: bottom; position: fixed; bottom: 0px; right: 0px;
+        z-index: 9999; padding-right: 20px; font-size: 14px; color: #333; line-height: 26px;
+        background: #ccc url(../../images/footer.png) repeat-x center; height: 26px; margin: 0 auto;
+        width: 100%; text-align: right;">
+        PHẦN MỀM QUẢN LÝ BỆNH VIÊN - Copyright @ 2012 MKV Co,.Ltd
+    </div>
+</body>
+</html>

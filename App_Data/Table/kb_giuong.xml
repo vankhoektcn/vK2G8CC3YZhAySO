@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_giuong ID="GiuongId">
+  <COLUMN COLUMN_NAME="GiuongId" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="GiuongCode" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoaiGiuong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsTransfer" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idPhong" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="nvk_isGiuongCho" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IDLOAIGIUONG" TYPE_NAME="bigint" />
+</kb_giuong>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<khambenhcanlamsan ID="idkhambenhcanlamsan">
+  <COLUMN COLUMN_NAME="idkhambenhcanlamsan" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idkhambenh" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idcanlamsan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="dongia" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="dathu" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="dakham" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="ngaythu" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idnguoidung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngaykham" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="idbenhnhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tenBSChiDinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="maphieuCLS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="thucthu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="dahuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="soluong" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="chietkhau" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="thanhtien" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNguoiThu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="BHTra" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="GhiChu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoaiKhamID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idkhoadangky" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="sldakham" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="istieuphau" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="isphauthuat" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsHoanTraCLS" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="BHYTTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNDaTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNTongPhaiTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IdChiTietPTT" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="ISBNDaTra" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="NgayQuayLai" TYPE_NAME="smalldatetime" />
+  <COLUMN COLUMN_NAME="NGAYTINHBH_THUC" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="PhuThuBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="PrevBNTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IDDANGKYCLS" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDaDKK" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdnhomInBV" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IsBHYT_Save" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IDBENHBHDONGTIEN" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TOP1_IDKHAMBENHCANLAMSAN" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="ISDATRAKQ" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="THOIGIANTRAKQ" TYPE_NAME="datetime" />
+</khambenhcanlamsan>

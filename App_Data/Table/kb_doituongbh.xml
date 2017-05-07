@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_doituongbh ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="DoiTuong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="QuyenLoiChung" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="KyThuatCao" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="TLTT" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="VanChuyen" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="GhiChu" TYPE_NAME="nvarchar" />
+</kb_doituongbh>

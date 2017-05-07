@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_tonkho_view ID="IdTonKho">
+  <COLUMN COLUMN_NAME="IdTonKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TuNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DenNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="LoaiThuocID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TenThuoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsOrderByName" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsHaveDonGia" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsSoLuong" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsRutGon" TYPE_NAME="bit" />
+</hs_tonkho_view>

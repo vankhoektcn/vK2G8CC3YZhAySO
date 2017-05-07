@@ -1,0 +1,383 @@
+#report .tieude
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:14px;
+	color:Black;
+}
+
+#report .title
+{
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:13px;
+	color:Black;
+}
+
+#report .nhom
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-left-style:solid; 
+	border-left-color:#000000; 
+	border-left-width:1px; 
+	border-bottom-style:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width: 1px; 
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+#report .header_first
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-left-style:solid; 
+	border-left-color:#000000; 
+	border-left-width:1px; 
+	border-bottom-style:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:1px; 
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+#report .header
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-bottom:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:1px; 	
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+
+#report .header_end
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-right-style:solid; 
+	border-right-color:#000000; 
+	border-right-width:1px; 
+	border-bottom:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:1px; 	
+}
+
+
+
+#report .item_first
+{
+	font-family:Tahoma;
+	padding-left:2px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+	border-left:1px; 
+	border-left-color:#000000; 
+	border-left-style:solid;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+#report .item
+{
+	font-family:Tahoma;
+	padding-left:2px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+
+#report .item_end
+{
+	font-family:Tahoma;
+	padding-left:2px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+#report .itemcn_first
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-left:1px; 
+	border-left-color:#000000; 
+	border-left-style:solid;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	
+}
+
+#report .itemcn
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-right-width:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-bottom-width:0px; 
+	border-bottom-color:#000000; 
+	border-bottom-style:solid;
+}
+
+
+#report .itemcn_end
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-right-width:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-bottom-width:0px; 
+	border-bottom-color:#000000; 
+	border-bottom-style:solid;
+}
+
+#report .item_footer_first
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-left:1px; 
+	border-left-color:#000000; 
+	border-left-style:solid;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-bottom:solid; 
+	border-bottom-color:#000000; 
+	border-bottom-width:1px;
+	border-top:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px
+}
+
+#report .item_footer
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-bottom:solid; 
+	border-bottom-color:#000000; 
+	border-bottom-width:0px
+}
+
+#report .item_footer_end
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-bottom:solid; 
+	border-bottom-color:#000000; 
+	border-bottom-width:1px
+}
+
+
+
+#report .footer
+{
+	
+	font-family:Tahoma;
+	padding-left:1px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-bottom-style:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:0px; 
+	border-right-width:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	border-left-width:1px; 
+	border-left-color:#000000; 
+	border-left-style:solid;
+}
+
+#report .top
+{
+	
+	font-family:Tahoma;
+	padding-left:1px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-bottom-style:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:1px; 	
+}
+
+#report .end
+{
+	
+	font-family:Tahoma;
+	padding-left:1px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:5px;
+	border-top-style:solid; 
+	border-top-color:#000000;
+	border-top-width:1px; 	
+}
+
+#report .total
+{
+	
+	font-family:Tahoma;
+	padding-left:1px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+}
+
+#report .normal
+{
+	
+	font-family:Tahoma;
+	padding-left:1px;
+	font-weight:normal;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+}
+
+#report .item_total
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+	border-bottom-width:1px; 
+	border-bottom-color:#000000; 
+	border-bottom-style:solid;
+	border-right-width:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+	
+}
+
+#report .item_total_left
+{
+	font-family:Tahoma;
+	padding-left:5px;
+	font-weight:bold;
+	font-size:12px;
+	color:Black;
+	padding-right:2px;
+	border-left-style:solid; 
+	border-left-color:#000000; 
+	border-left-width:1px; 
+	border-bottom-width:1px; 
+	border-bottom-color:#000000; 
+	border-bottom-style:solid;
+}
+
+#report .item_footertk
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-bottom:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:0px; 	
+	border-right:1px; 
+	border-right-color:#000000; 
+	border-right-style:solid;
+}
+
+#report .item_footertk_first
+{	
+	font-family:Tahoma;
+	font-weight:300;
+	font-size:13px;
+	color:black;	
+	height:20px;
+	border-top-style:solid; 
+	border-top-color:#000000; 
+	border-top-width:1px;
+	border-bottom:solid; 
+	border-bottom-color:#000000;
+	border-bottom-width:0px;  	
+	border-left:1px; 
+	border-left-color:#000000; 
+	border-left-style:solid;
+}

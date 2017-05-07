@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc_yeucautrahongvo ID="IdPhieuYeuCauTraHongVo">
+  <COLUMN COLUMN_NAME="IdPhieuYeuCauTraHongVo" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NgayYeuCau" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="SoYeuCau" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdKhoYeuCau" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKhoNhanTra" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdNguoiYeuCau" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ISDADUYET" TYPE_NAME="bit" />
+</thuoc_yeucautrahongvo>

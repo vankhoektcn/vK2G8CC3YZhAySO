@@ -1,0 +1,170 @@
+A.AdvSelLink:hover
+{
+	background: #3399ff;
+	color: #ffffff;
+	text-decoration: none;
+}
+TR.AdvSelLink
+{
+	color: #000000;
+	text-decoration: none;
+	font-size: 11px;
+}
+TR.AdvSelLinkSel
+{
+	background: none;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	cursor:hand;
+}
+TR.AdvSelLinkSelHighlight
+{
+	background: #4682b4;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+	cursor:hand;
+}
+TR.AdvSelList
+{
+	font-size: 11px;
+	font-family: Verdana;
+}
+TR.AdvSelRow
+{
+	font-size: 11px;
+	background: #4682b4;
+	cursor: hand;
+	color: #ffffff;
+	font-family: Verdana;
+}
+TR.AdvUnselRow
+{
+	background: #f0f0f0;
+	color: #000000;
+	font-size: 11px;
+	font-family: Verdana;
+	cursor: hand;
+}
+IMG.AdvSelRow
+{
+}
+IMG.AdvUnselRow
+{
+}
+TR.AdvSelColHeader
+{
+	font-size: 11px;
+	font-family: Verdana;
+	font-weight: bold;
+	cursor:hand;
+}
+TD.AdvSelCol
+{
+	border-left:1px solid #FFFFFF; 
+	border-right:1px solid #A39A89; 
+	border-top:1px solid #FFFFFF; 
+	border-bottom:1px solid #A39A89; 	
+	border-width:1;
+	background:#dddddd;
+	cursor:hand;
+}
+TD.AdvSelColSel
+{
+	border-right:1px solid #FFFFFF; 
+	border-left:1px solid #A39A89; 
+	border-bottom:1px solid #FFFFFF; 
+	border-top:1px solid #A39A89; 	
+	border-width:1;
+	background:#e8e8e8;
+	cursor:hand;
+}
+DIV.AdvSelShortcuts
+{
+	font-size: 11px;
+	background: #f0f0f0;
+	font-family: Verdana;
+}
+TR.AdvSelChecked
+{
+	background: none;
+	color: #000000;
+	font-size: 11px;
+	font-family: Verdana;
+	font-weight: bold;	
+	cursor: hand;
+}
+TR.AdvSelNewChecked
+{
+	background: #4682b4;
+	color: #ffffff;
+	font-size: 11px;
+	font-family: Verdana;	
+	font-weight: bold;
+	cursor: hand;
+}
+TR.AdvSelUnChecked
+{
+	background: none;
+	color: #000000;
+	font-size: 11px;
+	font-family: Verdana;	
+	cursor: hand;
+}
+DIV.AdvSelButtonDiv
+{
+	cursor: hand;	
+}
+DIV.AdvSelListDiv
+{
+	z-index: 1000;
+	background: none scroll repeat 0% 0%;
+	vertical-align: super;
+}
+TABLE.AdvSelListTbl
+{
+	background: #f0f0f0;
+}
+TR.AdvSelListTbl
+{
+	background: #f0f0f0;
+}
+DIV.AdvSelHR
+{
+	clear: both;
+	border-right: 0px;
+	border-top: 1px solid;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+	border-left: 0px;
+	width: 100%;
+	line-height: 0px;
+	padding-top: 0px;
+	border-bottom: 0px solid;	
+	background: #f0f0f0;	
+	font-size: 0px;	
+}
+INPUT.AdvSelInput
+{	
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	border-bottom: black 1px solid;
+	height: 20px;
+	font-size: 14px;
+}
+INPUT.AdvSelInputHighLight
+{	
+	border-right: highlight 1px solid;
+	border-top: highlight 1px solid;
+	border-left: highlight 1px solid;
+	border-bottom: highlight 1px solid;
+	height: 20px;
+	font-size: 14px;
+}

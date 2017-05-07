@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_banggiathuoc_detail ID="IDCHITIETBANGGIA">
+  <COLUMN COLUMN_NAME="IDCHITIETBANGGIA" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IDBANGGIA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDTHUOC" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdDVT" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="DonGia" TYPE_NAME="float" />
+</hs_banggiathuoc_detail>

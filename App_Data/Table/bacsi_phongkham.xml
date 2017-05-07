@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bacsi_phongkham ID="IDChiTiet">
+  <COLUMN COLUMN_NAME="IDChiTiet" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="int" />
+</bacsi_phongkham>

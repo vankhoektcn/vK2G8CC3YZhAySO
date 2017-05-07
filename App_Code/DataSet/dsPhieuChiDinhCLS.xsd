@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPhieuChiDinhCLS" targetNamespace="http://tempuri.org/dsPhieuChiDinhCLS.xsd" xmlns:mstns="http://tempuri.org/dsPhieuChiDinhCLS.xsd" xmlns="http://tempuri.org/dsPhieuChiDinhCLS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPhieuChiDinhCLS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPhieuChiDinhCLS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mabenhnhan" type="xs:string" minOccurs="0" />
+              <xs:element name="tenbenhnhan" type="xs:string" minOccurs="0" />
+              <xs:element name="diachi" type="xs:string" minOccurs="0" />
+              <xs:element name="dienthoai" type="xs:string" minOccurs="0" />
+              <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="ngaysinh" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="dongia" type="xs:short" minOccurs="0" />
+              <xs:element name="ngaykham" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tendichvu1" type="xs:string" minOccurs="0" />
+              <xs:element name="sobhyt" type="xs:string" minOccurs="0" />
+              <xs:element name="ngayhethan" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="tendichvu2" type="xs:string" minOccurs="0" />
+              <xs:element name="STT1" type="xs:string" minOccurs="0" />
+              <xs:element name="STT2" type="xs:string" minOccurs="0" />
+              <xs:element name="MaVach" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

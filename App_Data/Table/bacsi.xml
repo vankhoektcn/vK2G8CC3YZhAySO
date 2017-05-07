@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bacsi ID="idbacsi">
+  <COLUMN COLUMN_NAME="idbacsi" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="mabacsi" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenbacsi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="dienthoai" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="diachi" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="gioitinh" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="username" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="pass" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="idchucvu" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="ngaysinh" TYPE_NAME="smalldatetime" />
+  <COLUMN COLUMN_NAME="luongcoban" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="isthoiviec" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="pthh" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="ptcd" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsBSNgoaiVien" TYPE_NAME="bit" />
+</bacsi>

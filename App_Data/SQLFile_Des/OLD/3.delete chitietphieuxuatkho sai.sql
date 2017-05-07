@@ -1,0 +1,1 @@
+delete chitietphieuxuatkho where idphieuxuat is null or idphieuxuat=0 or idphieuxuat=-1

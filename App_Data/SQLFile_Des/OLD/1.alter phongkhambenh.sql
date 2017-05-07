@@ -1,0 +1,1 @@
+alter table phongkhambenh add KyHieu nvarchar(100)

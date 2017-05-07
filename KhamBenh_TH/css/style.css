@@ -1,0 +1,237 @@
+/* CSS Document */
+<STYLE>
+.khung {
+	border: 1px solid #999999;
+}
+
+.khung_006699 {
+	border: 1px solid #006699;
+}
+A.EmptyLink:link
+{
+	TEXT-DECORATION: none
+}
+
+A.EmptyLink:visited
+{
+	TEXT-DECORATION: none
+}
+
+A.EmptyLink:hover
+{
+	TEXT-DECORATION: none
+}
+
+A.EmptyLink:active
+{
+	TEXT-DECORATION: none
+}
+a.mau2 {
+	font-family: verdana;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.maunut {
+	font-family: verdana;
+	font-size: 14px;
+	text-decoration: none;
+}
+.DefPageStyle
+{
+	BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE:   url(forums/client/images/background.GIF)}
+
+.cssMenuItem
+{
+	FILTER: Alpha(Opacity=100)
+}
+
+a.alink{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: normal; COLOR: #000000; TEXT-DECORATION: none}
+a.alink2{FONT-FAMILY : Verdana,Arial; FONT-SIZE: 8pt;FONT-WEIGHT:normal; COLOR: #085096; TEXT-DECORATION: none;}
+a.alink1{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: true; COLOR: #085096; TEXT-DECORATION: none}
+a.alink3{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: normal; COLOR: Green; TEXT-DECORATION: none}
+a.alicense{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: normal; COLOR: #074181; TEXT-DECORATION: none}
+
+p.pTitle {FONT-FAMILY : Arial; FONT-SIZE: 13pt;FONT-WEIGHT: bold; COLOR: blue}
+
+p.pcaption0{FONT-FAMILY : Arial; FONT-SIZE: 18pt;FONT-WEIGHT: bold; COLOR: #08246B}
+p.pcaption{FONT-FAMILY : Arial; FONT-SIZE: 14pt;FONT-WEIGHT: NORMAL; COLOR: #FF00A0}
+p.pcaption3{FONT-FAMILY : Arial; FONT-SIZE: 12pt;FONT-WEIGHT: bold; COLOR: #FFFFFF}
+p.pcaption2{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: normal; COLOR: #FFFFFF}
+p.pcaption1{FONT-FAMILY : Tahoma; FONT-SIZE: 10pt;FONT-WEIGHT: BOLD; COLOR: #08246B}
+p.pcaption4{FONT-FAMILY : Tahoma; FONT-SIZE: 16pt;FONT-WEIGHT: BOLD; COLOR: #08246B}
+p.pcaptabe1{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: bold ; COLOR: #010467}
+p.pcaptabe{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: bold ; COLOR: #444444}
+p.pcaptabd{FONT-FAMILY : Arial; FONT-SIZE: 8pt;FONT-WEIGHT: normal; COLOR: #777777}
+p.ptext{FONT-FAMILY : Verdana; FONT-SIZE: 9pt;FONT-WEIGHT: 500; COLOR: #000000}
+p.ptextp{FONT-FAMILY : Arial; FONT-SIZE: 10pt;FONT-WEIGHT: normal; COLOR: #999999}
+p.ptexthp{FONT-FAMILY : Arial; FONT-SIZE: 10pt;FONT-WEIGHT: bold; COLOR: #08246B}
+p.ptextEx{font-family:"Arial";font-weight:normal;font-size:12pt;color:maroon }
+p.ptext2{FONT-FAMILY : Arial; FONT-SIZE: 8pt;COLOR: #000000}
+span.sptext{FONT-FAMILY : Verdana; FONT-SIZE: 9pt;FONT-WEIGHT: 500; COLOR: #000000}
+radio.ratext{FONT-FAMILY : Arial; FONT-SIZE: 9pt;FONT-WEIGHT: normal; COLOR: #000000}
+
+
+select, input, option, textarea{font-family : Arial;FONT-SIZE: 10pt;}
+td.board{BACKGROUND-COLOR: #909090}
+td.rboard{BACKGROUND-COLOR: #C0C0C0}
+tr.rboard{BACKGROUND-COLOR: #C0C0C0}
+tr.rboard1{BACKGROUND-COLOR: #FFFFFF}
+tr.rboard2{BACKGROUND-COLOR: #F0F0F0}
+tr.rboardtabe{BACKGROUND-COLOR: #FFFFFF}
+tr.rboardtabd{BACKGROUND-COLOR: #CCCCCC}
+td.boardtabe{BACKGROUND-COLOR: #FFFFFF}
+td.boardtabd{BACKGROUND-COLOR: #CCCCCC}
+.btncalendar{
+	cursor: pointer; cursor:hand;	
+	BACKGROUND-IMAGE: url("../images/cal.gif"); 
+	BORDER-BOTTOM: 0px ; BORDER-LEFT: 0px ; 
+	BORDER-RIGHT: 0px ; BORDER-TOP: 0px ; 
+	HEIGHT: 16px; WIDTH: 16px;
+}
+div#Text {FONT-FAMILY : Verdana; FONT-SIZE: 10pt;FONT-WEIGHT: normal; COLOR: #000000}
+div#tipDiv {
+  position:absolute; visibility:hidden; left:0; top:0; z-index:10000;
+  background:url("../images/marble.gif") #eef2f9;
+  border:1px solid #336;
+  width:150px; padding:4px;
+  color:#000; font-size:11px; line-height:1.2;  
+}
+.mousehand{
+ cursor:hand;	
+}
+.hrColor
+{
+	BORDER-RIGHT: silver thin solid; BORDER-TOP: silver thin solid; BORDER-LEFT: silver thin solid; BORDER-BOTTOM: silver thin solid
+}
+
+/*DataGrid */
+.gvrow
+{
+background-color:#CAE3FF;
+font-family:Verdana;font-size:10pt;
+}
+.gvrow hover
+{
+background-color:#F6EBCD;
+font-family:Verdana;font-size:10pt;
+}
+.DataGridFixedHeader { POSITION: relative; ; ;TOP: expression(this.offsetParent.scrollTop-86);}
+.DataGridFixedHeader1 { POSITION: relative; ; ;TOP: expression(this.offsetParent.scrollTop);}
+.dgrHeader
+{
+	background-color:#D8E8FF;
+	font-family:Tahoma;
+	font-size:14;
+	
+}
+.dgrHeaderrpt
+{
+	background-color: ;
+	font-family:Arial;
+	font-size:14;
+	
+}
+.dgrSelectItem
+{
+	background-color:#CAE3FF;
+	font-family:Tahoma;font-size:10pt;
+}
+.dgrNoSelectItem
+{
+	background-color:#FFFFFF;
+	font-family:Tahoma;font-size:10pt;
+}
+.dgrAlertItem
+{
+	background-color:#CAE3FF;
+	font-family:Tahoma;font-size:10pt;
+	
+}
+.dgrPages
+{
+	background-color:White;
+	color:Blue;
+	font-family:Arial;
+	font-size:12;
+}
+
+.btnLogin
+{
+	font-size: 8pt;
+	cursor: hand;
+	color: blue;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+p.StyleHeader {FONT-FAMILY : Arial; FONT-SIZE: 13pt;FONT-WEIGHT: ; COLOR: #FFFFFF}
+p.Header
+{
+	background-color:#D59518;
+	font-family:Arial;
+	font-size:14;
+	COLOR: #FFFFFF;
+}
+.ptext
+{
+	FONT-FAMILY : Verdana; FONT-SIZE: 10pt;FONT-WEIGHT: 500; COLOR: #000000
+}
+.ptext1
+{
+	FONT-FAMILY : Verdana; FONT-SIZE: 10pt;FONT-WEIGHT: 500; COLOR: Maroon
+}
+.clsMenu
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:#FFFFFF;
+}
+
+.clsMenu A
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.clsMenu A:hover
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:#def803;
+	text-decoration:none;
+}
+.clsMenuLeft
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:Gray;
+}
+
+.clsMenuLeft A
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:Gray;
+	text-decoration:none;
+}
+
+.clsMenuLeft A:hover
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:12px;	
+	color:orange;
+	text-decoration:none;
+}
+
+</STYLE>

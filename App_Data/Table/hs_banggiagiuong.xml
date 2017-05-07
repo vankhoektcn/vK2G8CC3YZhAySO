@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_banggiagiuong ID="BangGiaGiuongId">
+  <COLUMN COLUMN_NAME="BangGiaGiuongId" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="BANGGIAID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDLOAIGIUONG" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="GiaDV" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="GiaBH" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+</hs_banggiagiuong>

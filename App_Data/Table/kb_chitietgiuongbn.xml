@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_chitietgiuongbn ID="IdChiTietGiuongBN">
+  <COLUMN COLUMN_NAME="IdChiTietGiuongBN" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TuNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="DenNgay" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdGiuong" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdChiTietDangKyKham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SL" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienDV" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ThanhTienBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BHTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IsDaThu" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="idnoitru_G" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idkhoa" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="PHUTHUBH" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IDBENHBHDONGTIEN" TYPE_NAME="bigint" />
+</kb_chitietgiuongbn>

@@ -1,0 +1,183 @@
+﻿.Table
+{
+	width:1100px;
+	margin-left:-100px;
+}
+.Table tr
+{
+	
+}
+.tdLabel
+{
+	font-size:14px;
+	font-weight:bold;
+	width:130px;
+	text-align:right;
+}
+.tdText
+{
+	font-size:14px;
+	width:250px;
+	
+}
+.tdCalenda
+{
+	font-size:14px;
+	width:100px;
+}
+.InputTien
+{
+	width:200px;
+	text-align:right;
+}
+.InputText
+{
+	width:200px;
+	text-align:left;
+}
+.tdHeader
+{
+	text-align:center;
+	color:White;
+	font-size:18px;
+	font-weight:bold;
+	
+	background-color:#3472C5;
+}
+.TableGidview
+{
+	width:100%;
+	margin-top:20px;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.TableGidview tr:hover
+{
+	background-color:#8ab1f2;
+	cursor:pointer;
+}
+
+.HeaderGidView
+{
+	background-color:#2c55b1;
+	color:White;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+}
+.RowGidView
+{
+	background-color:#E2EFFF;
+}
+.HeaderColumn0
+{
+	width:2%;
+	
+}
+.HeaderColumn1
+{
+	width:7%;
+	
+}
+.HeaderColumn2
+{
+	width:10%;
+
+}
+.HeaderColumn3
+{
+	width:15%;
+	
+}
+
+.Column0
+{
+	width:2%;
+	text-align:center;
+	
+	border-color:Black;
+	border-width:medium;
+}
+
+.Column1
+{
+	width:7%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column2
+{
+	width:10%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column3
+{
+	width:15%;
+	text-align:right;
+	border-color:Black;
+	border-width:medium;
+	
+}
+
+.HeaderColumn0_TK
+{
+	width:5%;
+	
+}
+.HeaderColumn1_TK
+{
+	width:15%;
+	
+}
+.HeaderColumn2_TK
+{
+	width:45%;
+
+}
+.HeaderColumn3_TK
+{
+	width:35%;
+	
+}
+
+.Column0_TK
+{
+	width:5%;
+	text-align:center;
+	
+	border-color:Black;
+	border-width:medium;
+}
+
+.Column1_TK
+{
+	width:15%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column2_TK
+{
+	width:60%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column3_TK
+{
+	width:20%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}

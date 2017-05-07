@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dmnghiepvu ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="MaNghiepVu" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="TenNghiepVu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DienGiai" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TiepDauNgu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SoCT_hientai" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="TKNo" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="TKCo" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="TKThue" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="tkck" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="VAT" TYPE_NAME="int" />
+</dmnghiepvu>

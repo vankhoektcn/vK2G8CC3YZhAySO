@@ -1,0 +1,127 @@
+﻿.Table
+{
+	width:1100px;
+	margin-left:-100px;
+}
+.Table tr
+{
+	
+}
+.tdLabel
+{
+	font-size:14px;
+	font-weight:bold;
+	width:130px;
+	text-align:right;
+}
+.tdText
+{
+	font-size:14px;
+	width:250px;
+	
+}
+.tdCalenda
+{
+	font-size:14px;
+	width:100px;
+}
+.InputTien
+{
+	width:200px;
+	text-align:right;
+}
+.InputText
+{
+	width:200px;
+	text-align:left;
+}
+.tdHeader
+{
+	text-align:center;
+	color:White;
+	font-size:18px;
+	font-weight:bold;
+	
+	background-color:#3472C5;
+}
+.TableGidview
+{
+	width:100%;
+	margin-top:20px;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.TableGidview tr:hover
+{
+	background-color:#8ab1f2;
+	cursor:pointer;
+}
+
+.HeaderGidView
+{
+	background-color:#2c55b1;
+	color:White;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+}
+.RowGidView
+{
+	background-color:#E2EFFF;
+}
+.HeaderColumn1
+{
+	width:5%;
+	
+}
+.HeaderColumn2
+{
+	width:20%;
+
+}
+.HeaderColumn3
+{
+	width:30%;
+	
+}
+.HeaderColumn3
+{
+	width:20%;
+	
+}
+.Column1
+{
+	width:5%;
+	text-align:center;
+	
+	border-color:Black;
+	border-width:medium;
+}
+
+.Column2
+{
+	width:20%;
+	text-align:center;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column3
+{
+	width:30%;
+	text-align:left;
+	border-color:Black;
+	border-width:medium;
+	
+}
+.Column4
+{
+	width:20%;
+	text-align:right;
+	border-color:Black;
+	border-width:medium;
+	
+}

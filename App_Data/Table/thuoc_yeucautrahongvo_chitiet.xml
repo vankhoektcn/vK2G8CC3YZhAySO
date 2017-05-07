@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuoc_yeucautrahongvo_chitiet ID="IdChitietYeuCauTraHongVo">
+  <COLUMN COLUMN_NAME="IdChitietYeuCauTraHongVo" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdYeuCauTraHongVo" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="LoaiThuocId" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdDVT" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="LoSanXuat" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgayHetHan" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="SoLuong" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="GhiChu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SLTON" TYPE_NAME="float" />
+</thuoc_yeucautrahongvo_chitiet>

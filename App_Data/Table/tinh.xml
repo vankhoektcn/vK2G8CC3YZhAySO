@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tinh ID="tinhid">
+  <COLUMN COLUMN_NAME="tinhid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tinhname" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MaTinh" TYPE_NAME="nvarchar" />
+</tinh>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zkiemduyet ID="idKiemDuyet">
+  <COLUMN COLUMN_NAME="idKiemDuyet" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="NGAYYC" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NGAYDUYET" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="KHOYC" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TENTHUOC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IDTHUOC" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SOPHIEUYC" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENDVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="SOLUONGYC" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SOLUONGDUYET" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="THUCXUAT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ISDUYETPHAT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="TENKHO" TYPE_NAME="nvarchar" />
+</zkiemduyet>

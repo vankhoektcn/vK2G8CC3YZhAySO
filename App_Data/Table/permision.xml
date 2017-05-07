@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<permision ID="PermID">
+  <COLUMN COLUMN_NAME="PermID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="PermName" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="PermDesc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsTransfer" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsParent" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="SoTT" TYPE_NAME="int" />
+</permision>

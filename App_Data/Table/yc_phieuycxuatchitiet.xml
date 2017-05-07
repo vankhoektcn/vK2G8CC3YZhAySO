@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<yc_phieuycxuatchitiet ID="IdChiTietYc">
+  <COLUMN COLUMN_NAME="IdChiTietYc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdPhieuYc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SoLuongYc" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SoLuongDuyet" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SlTon" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SlDutru" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IsDuyetIn" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="GhiChu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="TonPhat" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DutruPhat" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NgayYeuCau_CT" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IdKhoDuyet_CT" TYPE_NAME="bigint" />
+</yc_phieuycxuatchitiet>

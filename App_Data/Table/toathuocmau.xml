@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toathuocmau ID="idToaThuoc">
+  <COLUMN COLUMN_NAME="idToaThuoc" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="TenToaThuoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdChanDoan" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Songay" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdNguoiDung" TYPE_NAME="int" />
+</toathuocmau>

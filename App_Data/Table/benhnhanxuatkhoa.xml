@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<benhnhanxuatkhoa ID="IdXuatKhoa">
+  <COLUMN COLUMN_NAME="IdXuatKhoa" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="NgayXuatKhoa" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IdKhoaXuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdChiTietDangKyKham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKhamBenhGoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBenhNhan" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdHuongDieuTri" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKhoaChuyenDen" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdPhongChuyenDen" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBVChuyenDen" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="PhuongPhapDT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoiDanXuatKhoa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ChanDoanXuatKhoa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsNhapLai" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="idtinhTrang" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="LyDoXuatKhoa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="isCoDieuDuongCV" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="isCoBacSiCV" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdKhamBenhXK" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="MoTaCD_edit" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="idnguoidung" TYPE_NAME="bigint" />
+</benhnhanxuatkhoa>

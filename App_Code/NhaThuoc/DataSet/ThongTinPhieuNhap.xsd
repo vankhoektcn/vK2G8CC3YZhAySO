@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThongTinPhieuNhap" targetNamespace="http://tempuri.org/ThongTinPhieuNhap.xsd" xmlns:mstns="http://tempuri.org/ThongTinPhieuNhap.xsd" xmlns="http://tempuri.org/ThongTinPhieuNhap.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ThongTinPhieuNhap" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPhieuNhapThuoc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TT" type="xs:int" minOccurs="0" />
+              <xs:element name="Logo" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Cty" type="xs:string" minOccurs="0" />
+              <xs:element name="DiaChiCongTy" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="SoThue" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Logo_image" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="maphieu" type="xs:string" minOccurs="0" />
+              <xs:element name="ngaynhap" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ngayhoadon" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+              <xs:element name="tennguoigiao" type="xs:string" minOccurs="0" />
+              <xs:element name="tenthuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="congthuc" type="xs:string" minOccurs="0" />
+              <xs:element name="donvitinh" type="xs:string" minOccurs="0" />
+              <xs:element name="soluong" type="xs:int" minOccurs="0" />
+              <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dgsauchietkhau" type="xs:decimal" minOccurs="0" />
+              <xs:element name="chietkhau" type="xs:decimal" minOccurs="0" />
+              <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="giabanhientai" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tienvat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tienhang" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ngayhethan" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+              <xs:element name="tenhangsanxuat" type="xs:string" minOccurs="0" />
+              <xs:element name="losanxuat" type="xs:string" minOccurs="0" />
+              <xs:element name="thanhtien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DienThoaiCongTy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

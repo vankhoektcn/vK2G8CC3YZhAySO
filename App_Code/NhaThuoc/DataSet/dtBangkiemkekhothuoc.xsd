@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtBangkiemkekhothuoc" targetNamespace="http://tempuri.org/dtBangkiemkekhothuoc.xsd" xmlns:mstns="http://tempuri.org/dtBangkiemkekhothuoc.xsd" xmlns="http://tempuri.org/dtBangkiemkekhothuoc.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtBangkiemkekhothuoc" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtKiemKeKhoThuoc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenThuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="DVT" type="xs:string" minOccurs="0" />
+              <xs:element name="slsosach" type="xs:int" minOccurs="0" />
+              <xs:element name="ttsosach" type="xs:int" minOccurs="0" />
+              <xs:element name="slthucte" type="xs:int" minOccurs="0" />
+              <xs:element name="ttthucte" type="xs:int" minOccurs="0" />
+              <xs:element name="slthua" type="xs:int" minOccurs="0" />
+              <xs:element name="slthieu" type="xs:int" minOccurs="0" />
+              <xs:element name="dongia" type="xs:int" minOccurs="0" />
+              <xs:element name="hongvo" type="xs:int" minOccurs="0" />
+              <xs:element name="hansudung" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="hoatchat" type="xs:string" minOccurs="0" />
+              <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+              <xs:element name="sodk" type="xs:string" minOccurs="0" />
+              <xs:element name="SoDK" type="xs:string" minOccurs="0" />
+              <xs:element name="losanxuat" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

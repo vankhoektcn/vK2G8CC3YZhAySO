@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dmloaiphi ID="Id_lp">
+  <COLUMN COLUMN_NAME="Id_lp" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="TenLoaiPhi" TYPE_NAME="nvarchar" />
+</dmloaiphi>

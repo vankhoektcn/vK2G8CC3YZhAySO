@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<zdanhsachthuocsaphethan ID="IdDanhSach">
+  <COLUMN COLUMN_NAME="IdDanhSach" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NgayXetHH" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="IdLoaiThuoc" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdKho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SoNgay" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="SoThang" TYPE_NAME="int" />
+</zdanhsachthuocsaphethan>

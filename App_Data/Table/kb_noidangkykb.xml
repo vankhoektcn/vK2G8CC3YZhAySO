@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_noidangkykb ID="IDNOIDANGKY">
+  <COLUMN COLUMN_NAME="IDNOIDANGKY" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="MADANGKY" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="TENNOIDANGKY" TYPE_NAME="ntext" />
+  <COLUMN COLUMN_NAME="DUNGTUYEN" TYPE_NAME="bit" />
+</kb_noidangkykb>

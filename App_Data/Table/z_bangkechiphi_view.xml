@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<z_bangkechiphi_view ID="IDBANGKE">
+  <COLUMN COLUMN_NAME="IDBANGKE" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBenhNhan" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="mabenhnhan" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tenbenhnhan" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaysinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="GIOITINH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="sobhyt" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DungTuyen" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgayTinhBH" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="TongSoTien" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BHTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNPhaiTra" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNDaTraChenhLechBHYT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNPhaiTraChenhLechBHYT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IsNoiTru" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="TenBV" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IDCHITIETDANGKYKHAM" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="USERID" TYPE_NAME="bigint" />
+</z_bangkechiphi_view>

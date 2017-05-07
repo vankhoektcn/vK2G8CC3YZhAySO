@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nuocsx ID="idNuocSX">
+  <COLUMN COLUMN_NAME="idNuocSX" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="maNuocSX" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tenNuocSX" TYPE_NAME="nvarchar" />
+</nuocsx>

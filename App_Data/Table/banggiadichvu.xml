@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<banggiadichvu ID="idbanggiadichvu">
+  <COLUMN COLUMN_NAME="idbanggiadichvu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TenNhom" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tendichvu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="mota" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="giadichvu" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="daxoa" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="giausd" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="ptdieutri" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="ptchidinh" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="GiaBH" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="PhuThuBH" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="PhuThuPK" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="IsKTC" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="madichvu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsBatBuocthu" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="BHTra" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IDLoaiCLS" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsSuDungChoBH" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="HangTraiTuyen" TYPE_NAME="smallint" />
+  <COLUMN COLUMN_NAME="TTUUCapCuu_Nhom" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="TTUTCapCuu_DV" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IsChuyenKhoa" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IsCLS" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="nMax" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TenBaoHiem" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsVC" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="TENNHOMCD" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsDVKT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IDNHOMINBV" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IDDVT" TYPE_NAME="int" />
+</banggiadichvu>

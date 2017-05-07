@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTongHopYLenh" targetNamespace="http://tempuri.org/dsTongHopYLenh.xsd" xmlns:mstns="http://tempuri.org/dsTongHopYLenh.xsd" xmlns="http://tempuri.org/dsTongHopYLenh.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTongHopYLenh" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTongHopYLenh_Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idRow" type="xs:int" />
+              <xs:element name="Stt" type="xs:string" minOccurs="0" />
+              <xs:element name="Phong" type="xs:string" minOccurs="0" />
+              <xs:element name="Giuong" type="xs:string" minOccurs="0" />
+              <xs:element name="MaBenhNhan" type="xs:string" minOccurs="0" />
+              <xs:element name="TenBenhNhan" type="xs:string" minOccurs="0" />
+              <xs:element name="int" type="xs:int" minOccurs="0" />
+              <xs:element name="double" type="xs:double" minOccurs="0" />
+              <xs:element name="string" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtTongHopYLenh_Col">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idColumn" type="xs:int" />
+              <xs:element name="MaThuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="TenThuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="int_col" type="xs:short" minOccurs="0" />
+              <xs:element name="double_col" type="xs:double" minOccurs="0" />
+              <xs:element name="string_col" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtTongHopYLenh_Detail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idDetail" type="xs:int" />
+              <xs:element name="idRow" type="xs:int" minOccurs="0" />
+              <xs:element name="idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SoLuongThuoc_int" type="xs:int" minOccurs="0" />
+              <xs:element name="SLThuoc_string" type="xs:string" minOccurs="0" />
+              <xs:element name="SLThuoc_double" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtTongHopYLenh_RowKey1">
+      <xs:selector xpath=".//mstns:dtTongHopYLenh_Row" />
+      <xs:field xpath="mstns:idRow" />
+    </xs:unique>
+    <xs:unique name="dtTongHopYLenh_ColKey1">
+      <xs:selector xpath=".//mstns:dtTongHopYLenh_Col" />
+      <xs:field xpath="mstns:idColumn" />
+    </xs:unique>
+    <xs:unique name="dtTongHopYLenh_DetailKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtTongHopYLenh_Detail" />
+      <xs:field xpath="mstns:idDetail" />
+      <xs:field xpath="mstns:idRow" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dtTongHopYLenh_Row_dtTongHopYLenh_Detail" msdata:parent="dtTongHopYLenh_Row" msdata:child="dtTongHopYLenh_Detail" msdata:parentkey="idRow" msdata:childkey="idRow" />
+      <msdata:Relationship name="dtTongHopYLenh_Col_dtTongHopYLenh_Detail" msdata:parent="dtTongHopYLenh_Col" msdata:child="dtTongHopYLenh_Detail" msdata:parentkey="idColumn" msdata:childkey="idColumn" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

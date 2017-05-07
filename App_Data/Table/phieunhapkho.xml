@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phieunhapkho ID="idphieunhap">
+  <COLUMN COLUMN_NAME="idphieunhap" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="maphieunhap" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ngaythang" TYPE_NAME="smalldatetime" />
+  <COLUMN COLUMN_NAME="idkho" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="nhacungcapid" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tennguoigiao" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="kyhieuhoadon" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="sohoadon" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="ngayhoadon" TYPE_NAME="smalldatetime" />
+  <COLUMN COLUMN_NAME="tkno" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="tkco" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="tkvat" TYPE_NAME="char" />
+  <COLUMN COLUMN_NAME="nhapcho" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="ghichu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="vat" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="thanhtien" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="idkhachhang" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idnguoinhap" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idloainhap" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IsBHYT" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="tienhang" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="tienvat" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="tongtien" TYPE_NAME="numeric" />
+  <COLUMN COLUMN_NAME="ptn" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="TrangThai" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="IdPhieuXuat" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="nhacungcapidbk" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IsDaHuy" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="LANSUA" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="NGAYSUA" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NGUOISUA" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="SOPHIEUYC" TYPE_NAME="varchar" />
+</phieunhapkho>

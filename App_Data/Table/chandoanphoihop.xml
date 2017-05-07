@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<chandoanphoihop ID="id">
+  <COLUMN COLUMN_NAME="id" TYPE_NAME="int identity" />
+  <COLUMN COLUMN_NAME="idkhambenh" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="idicd" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="maicd" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="MoTaCD_edit" TYPE_NAME="nvarchar" />
+</chandoanphoihop>

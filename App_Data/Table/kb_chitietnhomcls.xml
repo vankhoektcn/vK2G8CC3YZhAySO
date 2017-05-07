@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kb_chitietnhomcls ID="Id">
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="NhomID" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="idbanggiadichvu" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="Status" TYPE_NAME="bit" />
+</kb_chitietnhomcls>

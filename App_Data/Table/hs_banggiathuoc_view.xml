@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_banggiathuoc_view ID="ID">
+  <COLUMN COLUMN_NAME="ID" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="IDTHUOC" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="TenThuoc" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TenDVT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LOSANXUAT" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYHETHAN" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="dongia" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="vat" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="DonGiaView" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="SLTon" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="IDCHITIETPHIEUNHAPS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYTHANG_NHAP2" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="KHONHAP" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="INFOR_PHIEUNHAP" TYPE_NAME="nvarchar" />
+</hs_banggiathuoc_view>

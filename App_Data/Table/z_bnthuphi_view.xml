@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<z_bnthuphi_view ID="IDTHUPHI">
+  <COLUMN COLUMN_NAME="IDTHUPHI" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="MAPHIEUCLS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TONGTIEN" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="NOIDUNGTHU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoaiThu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TONGTIENBHYT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BHTRA" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNPHAITRA" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="BNDaTraChenhLechBHYT" TYPE_NAME="float" />
+  <COLUMN COLUMN_NAME="LoaiBN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENKHACHHANG" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Id" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="LoaiThu2" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MABENHNHAN" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="TENBENHNHAN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="DIACHI" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="gioitinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgaySinh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="Khoa" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="HuongDieuTri" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IdChiTietDangKyKham" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IdBenhNhan" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="IdBenhNhanBHDongTien" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="USERID" TYPE_NAME="bigint" />
+</z_bnthuphi_view>

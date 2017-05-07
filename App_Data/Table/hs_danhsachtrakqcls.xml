@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_danhsachtrakqcls ID="ID">
+  <COLUMN COLUMN_NAME="ID" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="MAPHIEUCLS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYTHU" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="MABENHNHAN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENBENHNHAN" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NGAYSINH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENGIOITINH" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="TENBACSI" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="PHONG" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NHOMCLS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="ISDATRA" TYPE_NAME="bit" />
+</hs_danhsachtrakqcls>

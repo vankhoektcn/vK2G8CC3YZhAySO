@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs_dangkycls ID="IdDangKyCLS">
+  <COLUMN COLUMN_NAME="IdDangKyCLS" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="MaPhieuCLS" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="NgayDK" TYPE_NAME="datetime" />
+  <COLUMN COLUMN_NAME="NguoiDK" TYPE_NAME="bigint" />
+  <COLUMN COLUMN_NAME="IDBENHNHAN" TYPE_NAME="bigint" />
+</hs_dangkycls>

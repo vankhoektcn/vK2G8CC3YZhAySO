@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phongkhambenh ID="idphongkhambenh">
+  <COLUMN COLUMN_NAME="idphongkhambenh" TYPE_NAME="bigint identity" />
+  <COLUMN COLUMN_NAME="maphongkhambenh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="tenphongkhambenh" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="truongphong" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="loaiphong" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="ishoptac" TYPE_NAME="tinyint" />
+  <COLUMN COLUMN_NAME="kyhieu" TYPE_NAME="nvarchar" />
+  <COLUMN COLUMN_NAME="IsNoiTru" TYPE_NAME="bit" />
+  <COLUMN COLUMN_NAME="Parrent" TYPE_NAME="int" />
+  <COLUMN COLUMN_NAME="tkdoanhthu" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="tkchiphi" TYPE_NAME="varchar" />
+  <COLUMN COLUMN_NAME="SoTT" TYPE_NAME="nvarchar" />
+</phongkhambenh>
