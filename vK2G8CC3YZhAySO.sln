@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "vK2G8CC3YZhAySO", ".", "{8AD35DD0-4556-4C66-BA4C-CEE474487326}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/vK2G8CC3YZhAySO"
+		Debug.AspNetCompiler.PhysicalPath = "E:\KNM\BenhVien\vK2G8CC3YZhAySO\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\vK2G8CC3YZhAySO\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/vK2G8CC3YZhAySO"
+		Release.AspNetCompiler.PhysicalPath = "E:\KNM\BenhVien\vK2G8CC3YZhAySO\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\vK2G8CC3YZhAySO\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51670"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Debug|.NET.Build.0 = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Release|.NET.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Release|.NET.Build.0 = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{8AD35DD0-4556-4C66-BA4C-CEE474487326}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
