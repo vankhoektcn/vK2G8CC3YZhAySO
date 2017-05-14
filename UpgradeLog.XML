@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="vK2G8CC3YZhAySO">
+</Property><Property Name="Solution File" Value="E:\KNM\BenhVien\vK2G8CC3YZhAySO\vK2G8CC3YZhAySO.sln">
+</Property><Property Name="Date" Value="10 Tháng Năm 2017">
+</Property><Property Name="Time" Value="8:32:56 SA">
+</Property></Properties><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\ExportToExcel.csproj" Description="Project file successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\ExportToExcel.csproj">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\CellIndex.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\CellIndex.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\clDictionaryDB.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\clDictionaryDB.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\Customer.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\Customer.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\Profess_Excel.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\Profess_Excel.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\Profess_ExportoExcelByCode.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\Profess_ExportoExcelByCode.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\KNM\BenhVien\vK2G8CC3YZhAySO\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\ExportToExcel.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExportToExcel" Source="..\ExportToExcel\ExportToExcel.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExportToExcel" Source="..\ExportToExcel\ExportToExcel.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
